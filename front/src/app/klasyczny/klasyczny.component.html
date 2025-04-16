@@ -1,0 +1,76 @@
+<div class="main"  style="background-color: #eee;">
+  <div class="container  py-5 ">
+    <div class="row d-flex justify-content-center align-items-center h-100">
+      <div class="col"  >
+  <div class=" h-80 card shopping-cart  " style="border-radius: 15px; min-height: 750px; min-width: 1300px">
+  <div class="gorny">
+            <div class="lewypanel"> 
+              <div *ngIf="dietaDoWyswietlenia">
+                <div class="nazdiecie"> <img src="assets/img/{{ dietaDoWyswietlenia.zdjmale }}.png" alt="Italian Trulli">  </div>
+                </div>
+            </div>
+            <div class="prawypanel">
+                <div class="wszystkopoprawej">
+                  <div *ngIf="dietaDoWyswietlenia">
+                      <h2>{{ dietaDoWyswietlenia.nazwa }}</h2>
+                      <div class="Natabele">
+                              <table class="t1" >
+                                <thead>
+                                    <tr>
+                                      <th>Liczba kalorii</th>
+                                      <th>Liczba posilkow</th>
+                                      <th>Wege</th>
+                                      <th>Cena (dzień)</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                  <tr>
+                                    <td>{{ dietaDoWyswietlenia.kalorie }}</td> 
+                                    <td>{{ dietaDoWyswietlenia.liczba_posilkow }} </td>
+                                    <td >{{ dietaDoWyswietlenia.czy_weg }}</td>
+                                    <td>{{ dietaDoWyswietlenia.cena }}</td>
+                                  </tr>
+                                </tbody>
+                              </table>
+                      </div>
+                    <div class="naopis"> {{dietaDoWyswietlenia.opis}} </div>
+                  </div>
+              </div>
+            </div>
+      </div>
+      <div class="dol">   
+        <div class="dol2">
+          <mat-form-field class="datapicker">
+            <mat-label>Wybierz date!</mat-label>
+            <mat-date-range-input [rangePicker]="picker">
+              <input matStartDate [(ngModel)]="startDate" placeholder="Start date">
+              <input matEndDate [(ngModel)]="endDate" placeholder="End date">
+            </mat-date-range-input>
+            <mat-datepicker-toggle matIconSuffix [for]="picker"></mat-datepicker-toggle>
+            <mat-date-range-picker #picker></mat-date-range-picker>
+          </mat-form-field>
+          <button type="button" class="b1" (click)="zamowDieta()">Zamów!</button>
+        </div>
+       </div>  
+      </div>
+    </div>
+  </div>
+</div>
+</div> 
+           
+
+
+      
+
+
+
+
+
+
+
+
+
+
+
+
+

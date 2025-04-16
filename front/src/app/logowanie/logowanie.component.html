@@ -1,0 +1,37 @@
+ <section class="h-100 h-custom" style="background-color: #eee;">
+    <div class="container h-100 py-5 ">
+      <div class="row d-flex justify-content-center align-items-center h-100">
+        <div class="col"  >
+          <div class=" h-100 card shopping-cart  " style="border-radius: 15px; min-height: 750px;">
+            <div class="card-body text-black">
+                <div class="col-lg-6 px-5 py-4 ttt">
+                  <h3 class="mb-5 pt-2 text-center fw-bold text-uppercase"> {{user}}, o to twoje zamowienia</h3>
+                  <div *ngIf="order">
+                        <div *ngFor="let order of order" fxFlex="calc(30% - 20px)" class="d-flex align-items-center mb-5 cale2" style="box-sizing: border-box;">   
+                                  <div class="flex-shrink-0 cale">
+                                    <div *ngFor="let item of order.zamowienieDietasDTO" fxFlex="calc(30% - 20px)" class="d-flex align-items-center mb-3 es" style="box-sizing: border-box;">
+                                      <div class="flex-shrink-0">
+                                        <img src="assets/img/{{item.zdjmale}}.png" 
+                                          class="img-fluid" style="width: 150px;" alt="Generic placeholder image">
+                                      </div>
+                                            <div class="nadane">
+                                            <p class="fw-bold mb-0 me-5 pe-3"> {{item.nazwaDiety}}</p>
+                                            <p class="fw-bold mb-0 me-5 pe-3">Cena: {{item.cena}}</p>
+                                            <p class="fw-bold mb-0 me-5 pe-3">Dni: {{item.iloscDni}}</p>
+                                            <p class="fw-bold mb-0 me-5 pe-3">Cena łączna: {{item.cenaLaczna}}zł</p>
+                                      </div>
+                                  </div>
+                                  <hr class="mb-2 war1" style="height: 2px;">
+                                  <div class="tot d-flex justify-content-between px-x war" >
+                                    <p class="fw-bold dat"> Data: {{order.data}}<p class="fw-bold mb-0 me-4  wartoscc">Wartość zamówienia: {{order.cenaLaczna}}zł</p>
+                                  </div>
+                                </div>
+                      </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>  

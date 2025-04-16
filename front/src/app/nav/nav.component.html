@@ -1,0 +1,12 @@
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<div class="topnav" id="myTopnav">
+  <img class="logo" src="assets/img/logo.jpg" alt="Italian Trulli">  
+  <a *ngIf="isLoggedIn"  mat-button (click)="logout()">Wyloguj</a>
+  <a *ngIf="!isLoggedIn"  mat-button (click)="login()" routerLinkActive="active">Zaloguj</a>
+  <a routerLink="Logowanie" routerLinkActive="active">Moje konto</a>
+  <a routerLink="Koszyk">Koszyk</a>
+  <a routerLink="Diety">Diety</a>
+  <a routerLink="/">Strona Główna</a>
+</div>
+
+

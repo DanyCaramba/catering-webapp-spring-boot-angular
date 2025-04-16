@@ -1,0 +1,15 @@
+<h2 class="section-heading">Wybierz zestaw dla siebie !</h2>
+<div class="h">
+  <div *ngFor="let item of diety" fxFlex="calc(30% - 20px)" class="product-card" style="box-sizing: border-box;">
+    <div class="column-4 project-1">
+      <div class="nalogo">   <img src="assets/img/{{ item.zdjmale}}.png" alt="{{ item.zdjmale }}" class="product-image">   </div>
+      <div class="opis">
+        <h2 class="zestawnazwa">{{item.nazwa}}</h2>
+        <h2 class="zestawopis">{{item.krotkiopis}}</h2>
+        <h2 class="cena">{{item.cena}}zł</h2>
+        <button type="button" class="b1" routerLink="/Klasyczny" (click)="przypisz(item.idDiety)">Zamów!</button>
+
+      </div>
+  </div>
+  </div>
+</div>

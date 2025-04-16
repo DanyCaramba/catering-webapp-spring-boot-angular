@@ -1,0 +1,98 @@
+<section class="h-100 h-custom" style="background-color: #eee;">
+  <div class="container h-100 py-5">
+    <div class="row d-flex justify-content-center align-items-center h-100">
+      <div class="col">
+        <div class="card shopping-cart" style="border-radius: 15px;">
+          <div class="card-body text-black">
+            <div class="row">
+              <div class="col-lg-6 px-5 py-4">
+                <h3 class="mb-5 pt-2 text-center fw-bold text-uppercase"> {{user}} o to twoje produkty</h3>
+                <div *ngFor="let item of koszykItems" fxFlex="calc(30% - 20px)" class="d-flex align-items-center mb-5" style="box-sizing: border-box;">   
+                  <div class="flex-shrink-0">
+                    <img src="assets/img/{{item.zdjmale}}.png" 
+                      class="img-fluid" style="width: 150px;" alt="Generic placeholder image">
+                  </div>
+                  <div class="flex-grow-1 ms-3 ">
+                    <button (click)="usunPrzedmiot(item.dieta.idDiety)" class="b float-end text-black"> <img src="assets/img/kosz.png"> </button>
+                    <h5 class="text-primary">{{item.dieta.nazwa}}</h5>
+                    <div class="d-flex align-items-center" >
+                      <p class="fw-bold mb-0 me-5 pe-3">Cena: {{item.dieta.cena}}</p>
+                    </div>
+                    <p class="fw-bold mb-0 me-5 pe-3">Ilosc dni: {{item.iloscDni}}</p>
+                    <p class="fw-bold mb-0 me-5 pe-3">Razem: {{item.razem}}</p>
+                  </div>
+                </div>
+                <hr class="mb-4" style="height: 2px; background-color: #535558; opacity: 1;">
+
+                <div class="tot d-flex justify-content-between px-x" >
+                  <p class="fw-bold">Razem:</p>
+                  <p class="fw-bold">{{getCalkowityKoszt()}}</p>
+                </div>
+              </div>
+              <div class="col-lg-6 px-5 py-4">
+                <h3 class="mb-5 pt-2 text-center fw-bold text-uppercase">Dane dostawy</h3>
+                <form class="mb-5">
+                  <div class="row">
+                    <div class="col-md-6 mb-2">
+                      <div class="form-outline">
+                        <input type="text" id="imie" class="form-control form-control-lg" />
+                        <label class="form-label" for="imie">Imie</label>
+                      </div>
+                    </div>
+                    <div class="col-md-6 mb-2">
+                      <div class="form-outline">
+                        <input type="text" id="nazwisko" class="form-control form-control-lg" />
+                        <label class="form-label" for="nazwisko">Nazwisko</label>
+                      </div>
+                    </div>
+                  </div>
+              
+                  <div class="row">
+                    <div class="col-md-6 mb-2">
+                      <div class="form-outline">
+                        <input type="text" id="kodPocztowy" class="form-control form-control-lg" />
+                        <label class="form-label" for="kodPocztowy">Kod pocztowy</label>
+                      </div>
+                    </div>
+                    <div class="col-md-6 mb-2">
+                      <div class="form-outline">
+                        <input type="text" id="miejscowosc" class="form-control form-control-lg" />
+                        <label class="form-label" for="miejscowosc">Miejscowość</label>
+                      </div>
+                    </div>
+                  </div>
+              
+                  <div class="row">
+                    <div class="col-md-6 mb-5">
+                      <div class="form-outline">
+                        <input type="text" id="ulica" class="form-control form-control-lg" />
+                        <label class="form-label" for="ulica">Ulica</label>
+                      </div>
+                    </div>
+                    <div class="col-md-6 mb-5">
+                      <div class="form-outline">
+                        <input type="number" id="numerBudynku" class="form-control form-control-lg" />
+                        <label class="form-label" for="numerBudynku">Numer budynku</label>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="zapis">
+                    <input type="checkbox" id="myCheckbox" name="myCheckbox" class="ce" />
+                    <p class="tes">Potwierdzam, że zapoznałem się i akceptuję Regulamin oraz Politykę prywatności.</p>
+                  </div>
+                </form>
+              </div>
+                  <button type="button" (click)="zapiszzamowienie()" class="btn btn-primary btn-block btn-lg">Kup teraz! </button>
+                  <button routerLink="/Diety" class="btn btn-primary btn-block btn-lg mt-2">Wróc do wyboru diet</button>
+
+          
+
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+</section> 

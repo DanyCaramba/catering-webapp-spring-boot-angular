@@ -1,0 +1,5336 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="keycloak@localhost">
+  <database-model serializer="dbm" dbms="MYSQL" family-id="MYSQL" format-version="4.51">
+    <root id="1">
+      <DefaultCasing>exact</DefaultCasing>
+      <DefaultEngine>InnoDB</DefaultEngine>
+      <DefaultTmpEngine>InnoDB</DefaultTmpEngine>
+      <Grants>keycloak|schema||keycloak||ALTER|G
+keycloak|schema||keycloak||ALTER ROUTINE|G
+keycloak|schema||keycloak||CREATE|G
+keycloak|schema||keycloak||CREATE ROUTINE|G
+keycloak|schema||keycloak||CREATE TEMPORARY TABLES|G
+keycloak|schema||keycloak||CREATE VIEW|G
+keycloak|schema||keycloak||DELETE|G
+keycloak|schema||keycloak||DROP|G
+keycloak|schema||keycloak||EVENT|G
+keycloak|schema||keycloak||EXECUTE|G
+keycloak|schema||keycloak||INDEX|G
+keycloak|schema||keycloak||INSERT|G
+keycloak|schema||keycloak||LOCK TABLES|G
+keycloak|schema||keycloak||REFERENCES|G
+keycloak|schema||keycloak||SELECT|G
+keycloak|schema||keycloak||SHOW VIEW|G
+keycloak|schema||keycloak||TRIGGER|G
+keycloak|schema||keycloak||UPDATE|G</Grants>
+      <ServerVersion>5.7.44</ServerVersion>
+    </root>
+    <collation id="2" parent="1" name="big5_chinese_ci">
+      <Charset>big5</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="3" parent="1" name="big5_bin">
+      <Charset>big5</Charset>
+    </collation>
+    <collation id="4" parent="1" name="dec8_swedish_ci">
+      <Charset>dec8</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="5" parent="1" name="dec8_bin">
+      <Charset>dec8</Charset>
+    </collation>
+    <collation id="6" parent="1" name="cp850_general_ci">
+      <Charset>cp850</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="7" parent="1" name="cp850_bin">
+      <Charset>cp850</Charset>
+    </collation>
+    <collation id="8" parent="1" name="hp8_english_ci">
+      <Charset>hp8</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="9" parent="1" name="hp8_bin">
+      <Charset>hp8</Charset>
+    </collation>
+    <collation id="10" parent="1" name="koi8r_general_ci">
+      <Charset>koi8r</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="11" parent="1" name="koi8r_bin">
+      <Charset>koi8r</Charset>
+    </collation>
+    <collation id="12" parent="1" name="latin1_german1_ci">
+      <Charset>latin1</Charset>
+    </collation>
+    <collation id="13" parent="1" name="latin1_swedish_ci">
+      <Charset>latin1</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="14" parent="1" name="latin1_danish_ci">
+      <Charset>latin1</Charset>
+    </collation>
+    <collation id="15" parent="1" name="latin1_german2_ci">
+      <Charset>latin1</Charset>
+    </collation>
+    <collation id="16" parent="1" name="latin1_bin">
+      <Charset>latin1</Charset>
+    </collation>
+    <collation id="17" parent="1" name="latin1_general_ci">
+      <Charset>latin1</Charset>
+    </collation>
+    <collation id="18" parent="1" name="latin1_general_cs">
+      <Charset>latin1</Charset>
+    </collation>
+    <collation id="19" parent="1" name="latin1_spanish_ci">
+      <Charset>latin1</Charset>
+    </collation>
+    <collation id="20" parent="1" name="latin2_czech_cs">
+      <Charset>latin2</Charset>
+    </collation>
+    <collation id="21" parent="1" name="latin2_general_ci">
+      <Charset>latin2</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="22" parent="1" name="latin2_hungarian_ci">
+      <Charset>latin2</Charset>
+    </collation>
+    <collation id="23" parent="1" name="latin2_croatian_ci">
+      <Charset>latin2</Charset>
+    </collation>
+    <collation id="24" parent="1" name="latin2_bin">
+      <Charset>latin2</Charset>
+    </collation>
+    <collation id="25" parent="1" name="swe7_swedish_ci">
+      <Charset>swe7</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="26" parent="1" name="swe7_bin">
+      <Charset>swe7</Charset>
+    </collation>
+    <collation id="27" parent="1" name="ascii_general_ci">
+      <Charset>ascii</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="28" parent="1" name="ascii_bin">
+      <Charset>ascii</Charset>
+    </collation>
+    <collation id="29" parent="1" name="ujis_japanese_ci">
+      <Charset>ujis</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="30" parent="1" name="ujis_bin">
+      <Charset>ujis</Charset>
+    </collation>
+    <collation id="31" parent="1" name="sjis_japanese_ci">
+      <Charset>sjis</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="32" parent="1" name="sjis_bin">
+      <Charset>sjis</Charset>
+    </collation>
+    <collation id="33" parent="1" name="hebrew_general_ci">
+      <Charset>hebrew</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="34" parent="1" name="hebrew_bin">
+      <Charset>hebrew</Charset>
+    </collation>
+    <collation id="35" parent="1" name="tis620_thai_ci">
+      <Charset>tis620</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="36" parent="1" name="tis620_bin">
+      <Charset>tis620</Charset>
+    </collation>
+    <collation id="37" parent="1" name="euckr_korean_ci">
+      <Charset>euckr</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="38" parent="1" name="euckr_bin">
+      <Charset>euckr</Charset>
+    </collation>
+    <collation id="39" parent="1" name="koi8u_general_ci">
+      <Charset>koi8u</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="40" parent="1" name="koi8u_bin">
+      <Charset>koi8u</Charset>
+    </collation>
+    <collation id="41" parent="1" name="gb2312_chinese_ci">
+      <Charset>gb2312</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="42" parent="1" name="gb2312_bin">
+      <Charset>gb2312</Charset>
+    </collation>
+    <collation id="43" parent="1" name="greek_general_ci">
+      <Charset>greek</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="44" parent="1" name="greek_bin">
+      <Charset>greek</Charset>
+    </collation>
+    <collation id="45" parent="1" name="cp1250_general_ci">
+      <Charset>cp1250</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="46" parent="1" name="cp1250_czech_cs">
+      <Charset>cp1250</Charset>
+    </collation>
+    <collation id="47" parent="1" name="cp1250_croatian_ci">
+      <Charset>cp1250</Charset>
+    </collation>
+    <collation id="48" parent="1" name="cp1250_bin">
+      <Charset>cp1250</Charset>
+    </collation>
+    <collation id="49" parent="1" name="cp1250_polish_ci">
+      <Charset>cp1250</Charset>
+    </collation>
+    <collation id="50" parent="1" name="gbk_chinese_ci">
+      <Charset>gbk</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="51" parent="1" name="gbk_bin">
+      <Charset>gbk</Charset>
+    </collation>
+    <collation id="52" parent="1" name="latin5_turkish_ci">
+      <Charset>latin5</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="53" parent="1" name="latin5_bin">
+      <Charset>latin5</Charset>
+    </collation>
+    <collation id="54" parent="1" name="armscii8_general_ci">
+      <Charset>armscii8</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="55" parent="1" name="armscii8_bin">
+      <Charset>armscii8</Charset>
+    </collation>
+    <collation id="56" parent="1" name="utf8_general_ci">
+      <Charset>utf8</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="57" parent="1" name="utf8_bin">
+      <Charset>utf8</Charset>
+    </collation>
+    <collation id="58" parent="1" name="utf8_unicode_ci">
+      <Charset>utf8</Charset>
+    </collation>
+    <collation id="59" parent="1" name="utf8_icelandic_ci">
+      <Charset>utf8</Charset>
+    </collation>
+    <collation id="60" parent="1" name="utf8_latvian_ci">
+      <Charset>utf8</Charset>
+    </collation>
+    <collation id="61" parent="1" name="utf8_romanian_ci">
+      <Charset>utf8</Charset>
+    </collation>
+    <collation id="62" parent="1" name="utf8_slovenian_ci">
+      <Charset>utf8</Charset>
+    </collation>
+    <collation id="63" parent="1" name="utf8_polish_ci">
+      <Charset>utf8</Charset>
+    </collation>
+    <collation id="64" parent="1" name="utf8_estonian_ci">
+      <Charset>utf8</Charset>
+    </collation>
+    <collation id="65" parent="1" name="utf8_spanish_ci">
+      <Charset>utf8</Charset>
+    </collation>
+    <collation id="66" parent="1" name="utf8_swedish_ci">
+      <Charset>utf8</Charset>
+    </collation>
+    <collation id="67" parent="1" name="utf8_turkish_ci">
+      <Charset>utf8</Charset>
+    </collation>
+    <collation id="68" parent="1" name="utf8_czech_ci">
+      <Charset>utf8</Charset>
+    </collation>
+    <collation id="69" parent="1" name="utf8_danish_ci">
+      <Charset>utf8</Charset>
+    </collation>
+    <collation id="70" parent="1" name="utf8_lithuanian_ci">
+      <Charset>utf8</Charset>
+    </collation>
+    <collation id="71" parent="1" name="utf8_slovak_ci">
+      <Charset>utf8</Charset>
+    </collation>
+    <collation id="72" parent="1" name="utf8_spanish2_ci">
+      <Charset>utf8</Charset>
+    </collation>
+    <collation id="73" parent="1" name="utf8_roman_ci">
+      <Charset>utf8</Charset>
+    </collation>
+    <collation id="74" parent="1" name="utf8_persian_ci">
+      <Charset>utf8</Charset>
+    </collation>
+    <collation id="75" parent="1" name="utf8_esperanto_ci">
+      <Charset>utf8</Charset>
+    </collation>
+    <collation id="76" parent="1" name="utf8_hungarian_ci">
+      <Charset>utf8</Charset>
+    </collation>
+    <collation id="77" parent="1" name="utf8_sinhala_ci">
+      <Charset>utf8</Charset>
+    </collation>
+    <collation id="78" parent="1" name="utf8_german2_ci">
+      <Charset>utf8</Charset>
+    </collation>
+    <collation id="79" parent="1" name="utf8_croatian_ci">
+      <Charset>utf8</Charset>
+    </collation>
+    <collation id="80" parent="1" name="utf8_unicode_520_ci">
+      <Charset>utf8</Charset>
+    </collation>
+    <collation id="81" parent="1" name="utf8_vietnamese_ci">
+      <Charset>utf8</Charset>
+    </collation>
+    <collation id="82" parent="1" name="utf8_general_mysql500_ci">
+      <Charset>utf8</Charset>
+    </collation>
+    <collation id="83" parent="1" name="ucs2_general_ci">
+      <Charset>ucs2</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="84" parent="1" name="ucs2_bin">
+      <Charset>ucs2</Charset>
+    </collation>
+    <collation id="85" parent="1" name="ucs2_unicode_ci">
+      <Charset>ucs2</Charset>
+    </collation>
+    <collation id="86" parent="1" name="ucs2_icelandic_ci">
+      <Charset>ucs2</Charset>
+    </collation>
+    <collation id="87" parent="1" name="ucs2_latvian_ci">
+      <Charset>ucs2</Charset>
+    </collation>
+    <collation id="88" parent="1" name="ucs2_romanian_ci">
+      <Charset>ucs2</Charset>
+    </collation>
+    <collation id="89" parent="1" name="ucs2_slovenian_ci">
+      <Charset>ucs2</Charset>
+    </collation>
+    <collation id="90" parent="1" name="ucs2_polish_ci">
+      <Charset>ucs2</Charset>
+    </collation>
+    <collation id="91" parent="1" name="ucs2_estonian_ci">
+      <Charset>ucs2</Charset>
+    </collation>
+    <collation id="92" parent="1" name="ucs2_spanish_ci">
+      <Charset>ucs2</Charset>
+    </collation>
+    <collation id="93" parent="1" name="ucs2_swedish_ci">
+      <Charset>ucs2</Charset>
+    </collation>
+    <collation id="94" parent="1" name="ucs2_turkish_ci">
+      <Charset>ucs2</Charset>
+    </collation>
+    <collation id="95" parent="1" name="ucs2_czech_ci">
+      <Charset>ucs2</Charset>
+    </collation>
+    <collation id="96" parent="1" name="ucs2_danish_ci">
+      <Charset>ucs2</Charset>
+    </collation>
+    <collation id="97" parent="1" name="ucs2_lithuanian_ci">
+      <Charset>ucs2</Charset>
+    </collation>
+    <collation id="98" parent="1" name="ucs2_slovak_ci">
+      <Charset>ucs2</Charset>
+    </collation>
+    <collation id="99" parent="1" name="ucs2_spanish2_ci">
+      <Charset>ucs2</Charset>
+    </collation>
+    <collation id="100" parent="1" name="ucs2_roman_ci">
+      <Charset>ucs2</Charset>
+    </collation>
+    <collation id="101" parent="1" name="ucs2_persian_ci">
+      <Charset>ucs2</Charset>
+    </collation>
+    <collation id="102" parent="1" name="ucs2_esperanto_ci">
+      <Charset>ucs2</Charset>
+    </collation>
+    <collation id="103" parent="1" name="ucs2_hungarian_ci">
+      <Charset>ucs2</Charset>
+    </collation>
+    <collation id="104" parent="1" name="ucs2_sinhala_ci">
+      <Charset>ucs2</Charset>
+    </collation>
+    <collation id="105" parent="1" name="ucs2_german2_ci">
+      <Charset>ucs2</Charset>
+    </collation>
+    <collation id="106" parent="1" name="ucs2_croatian_ci">
+      <Charset>ucs2</Charset>
+    </collation>
+    <collation id="107" parent="1" name="ucs2_unicode_520_ci">
+      <Charset>ucs2</Charset>
+    </collation>
+    <collation id="108" parent="1" name="ucs2_vietnamese_ci">
+      <Charset>ucs2</Charset>
+    </collation>
+    <collation id="109" parent="1" name="ucs2_general_mysql500_ci">
+      <Charset>ucs2</Charset>
+    </collation>
+    <collation id="110" parent="1" name="cp866_general_ci">
+      <Charset>cp866</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="111" parent="1" name="cp866_bin">
+      <Charset>cp866</Charset>
+    </collation>
+    <collation id="112" parent="1" name="keybcs2_general_ci">
+      <Charset>keybcs2</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="113" parent="1" name="keybcs2_bin">
+      <Charset>keybcs2</Charset>
+    </collation>
+    <collation id="114" parent="1" name="macce_general_ci">
+      <Charset>macce</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="115" parent="1" name="macce_bin">
+      <Charset>macce</Charset>
+    </collation>
+    <collation id="116" parent="1" name="macroman_general_ci">
+      <Charset>macroman</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="117" parent="1" name="macroman_bin">
+      <Charset>macroman</Charset>
+    </collation>
+    <collation id="118" parent="1" name="cp852_general_ci">
+      <Charset>cp852</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="119" parent="1" name="cp852_bin">
+      <Charset>cp852</Charset>
+    </collation>
+    <collation id="120" parent="1" name="latin7_estonian_cs">
+      <Charset>latin7</Charset>
+    </collation>
+    <collation id="121" parent="1" name="latin7_general_ci">
+      <Charset>latin7</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="122" parent="1" name="latin7_general_cs">
+      <Charset>latin7</Charset>
+    </collation>
+    <collation id="123" parent="1" name="latin7_bin">
+      <Charset>latin7</Charset>
+    </collation>
+    <collation id="124" parent="1" name="utf8mb4_general_ci">
+      <Charset>utf8mb4</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="125" parent="1" name="utf8mb4_bin">
+      <Charset>utf8mb4</Charset>
+    </collation>
+    <collation id="126" parent="1" name="utf8mb4_unicode_ci">
+      <Charset>utf8mb4</Charset>
+    </collation>
+    <collation id="127" parent="1" name="utf8mb4_icelandic_ci">
+      <Charset>utf8mb4</Charset>
+    </collation>
+    <collation id="128" parent="1" name="utf8mb4_latvian_ci">
+      <Charset>utf8mb4</Charset>
+    </collation>
+    <collation id="129" parent="1" name="utf8mb4_romanian_ci">
+      <Charset>utf8mb4</Charset>
+    </collation>
+    <collation id="130" parent="1" name="utf8mb4_slovenian_ci">
+      <Charset>utf8mb4</Charset>
+    </collation>
+    <collation id="131" parent="1" name="utf8mb4_polish_ci">
+      <Charset>utf8mb4</Charset>
+    </collation>
+    <collation id="132" parent="1" name="utf8mb4_estonian_ci">
+      <Charset>utf8mb4</Charset>
+    </collation>
+    <collation id="133" parent="1" name="utf8mb4_spanish_ci">
+      <Charset>utf8mb4</Charset>
+    </collation>
+    <collation id="134" parent="1" name="utf8mb4_swedish_ci">
+      <Charset>utf8mb4</Charset>
+    </collation>
+    <collation id="135" parent="1" name="utf8mb4_turkish_ci">
+      <Charset>utf8mb4</Charset>
+    </collation>
+    <collation id="136" parent="1" name="utf8mb4_czech_ci">
+      <Charset>utf8mb4</Charset>
+    </collation>
+    <collation id="137" parent="1" name="utf8mb4_danish_ci">
+      <Charset>utf8mb4</Charset>
+    </collation>
+    <collation id="138" parent="1" name="utf8mb4_lithuanian_ci">
+      <Charset>utf8mb4</Charset>
+    </collation>
+    <collation id="139" parent="1" name="utf8mb4_slovak_ci">
+      <Charset>utf8mb4</Charset>
+    </collation>
+    <collation id="140" parent="1" name="utf8mb4_spanish2_ci">
+      <Charset>utf8mb4</Charset>
+    </collation>
+    <collation id="141" parent="1" name="utf8mb4_roman_ci">
+      <Charset>utf8mb4</Charset>
+    </collation>
+    <collation id="142" parent="1" name="utf8mb4_persian_ci">
+      <Charset>utf8mb4</Charset>
+    </collation>
+    <collation id="143" parent="1" name="utf8mb4_esperanto_ci">
+      <Charset>utf8mb4</Charset>
+    </collation>
+    <collation id="144" parent="1" name="utf8mb4_hungarian_ci">
+      <Charset>utf8mb4</Charset>
+    </collation>
+    <collation id="145" parent="1" name="utf8mb4_sinhala_ci">
+      <Charset>utf8mb4</Charset>
+    </collation>
+    <collation id="146" parent="1" name="utf8mb4_german2_ci">
+      <Charset>utf8mb4</Charset>
+    </collation>
+    <collation id="147" parent="1" name="utf8mb4_croatian_ci">
+      <Charset>utf8mb4</Charset>
+    </collation>
+    <collation id="148" parent="1" name="utf8mb4_unicode_520_ci">
+      <Charset>utf8mb4</Charset>
+    </collation>
+    <collation id="149" parent="1" name="utf8mb4_vietnamese_ci">
+      <Charset>utf8mb4</Charset>
+    </collation>
+    <collation id="150" parent="1" name="cp1251_bulgarian_ci">
+      <Charset>cp1251</Charset>
+    </collation>
+    <collation id="151" parent="1" name="cp1251_ukrainian_ci">
+      <Charset>cp1251</Charset>
+    </collation>
+    <collation id="152" parent="1" name="cp1251_bin">
+      <Charset>cp1251</Charset>
+    </collation>
+    <collation id="153" parent="1" name="cp1251_general_ci">
+      <Charset>cp1251</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="154" parent="1" name="cp1251_general_cs">
+      <Charset>cp1251</Charset>
+    </collation>
+    <collation id="155" parent="1" name="utf16_general_ci">
+      <Charset>utf16</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="156" parent="1" name="utf16_bin">
+      <Charset>utf16</Charset>
+    </collation>
+    <collation id="157" parent="1" name="utf16_unicode_ci">
+      <Charset>utf16</Charset>
+    </collation>
+    <collation id="158" parent="1" name="utf16_icelandic_ci">
+      <Charset>utf16</Charset>
+    </collation>
+    <collation id="159" parent="1" name="utf16_latvian_ci">
+      <Charset>utf16</Charset>
+    </collation>
+    <collation id="160" parent="1" name="utf16_romanian_ci">
+      <Charset>utf16</Charset>
+    </collation>
+    <collation id="161" parent="1" name="utf16_slovenian_ci">
+      <Charset>utf16</Charset>
+    </collation>
+    <collation id="162" parent="1" name="utf16_polish_ci">
+      <Charset>utf16</Charset>
+    </collation>
+    <collation id="163" parent="1" name="utf16_estonian_ci">
+      <Charset>utf16</Charset>
+    </collation>
+    <collation id="164" parent="1" name="utf16_spanish_ci">
+      <Charset>utf16</Charset>
+    </collation>
+    <collation id="165" parent="1" name="utf16_swedish_ci">
+      <Charset>utf16</Charset>
+    </collation>
+    <collation id="166" parent="1" name="utf16_turkish_ci">
+      <Charset>utf16</Charset>
+    </collation>
+    <collation id="167" parent="1" name="utf16_czech_ci">
+      <Charset>utf16</Charset>
+    </collation>
+    <collation id="168" parent="1" name="utf16_danish_ci">
+      <Charset>utf16</Charset>
+    </collation>
+    <collation id="169" parent="1" name="utf16_lithuanian_ci">
+      <Charset>utf16</Charset>
+    </collation>
+    <collation id="170" parent="1" name="utf16_slovak_ci">
+      <Charset>utf16</Charset>
+    </collation>
+    <collation id="171" parent="1" name="utf16_spanish2_ci">
+      <Charset>utf16</Charset>
+    </collation>
+    <collation id="172" parent="1" name="utf16_roman_ci">
+      <Charset>utf16</Charset>
+    </collation>
+    <collation id="173" parent="1" name="utf16_persian_ci">
+      <Charset>utf16</Charset>
+    </collation>
+    <collation id="174" parent="1" name="utf16_esperanto_ci">
+      <Charset>utf16</Charset>
+    </collation>
+    <collation id="175" parent="1" name="utf16_hungarian_ci">
+      <Charset>utf16</Charset>
+    </collation>
+    <collation id="176" parent="1" name="utf16_sinhala_ci">
+      <Charset>utf16</Charset>
+    </collation>
+    <collation id="177" parent="1" name="utf16_german2_ci">
+      <Charset>utf16</Charset>
+    </collation>
+    <collation id="178" parent="1" name="utf16_croatian_ci">
+      <Charset>utf16</Charset>
+    </collation>
+    <collation id="179" parent="1" name="utf16_unicode_520_ci">
+      <Charset>utf16</Charset>
+    </collation>
+    <collation id="180" parent="1" name="utf16_vietnamese_ci">
+      <Charset>utf16</Charset>
+    </collation>
+    <collation id="181" parent="1" name="utf16le_general_ci">
+      <Charset>utf16le</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="182" parent="1" name="utf16le_bin">
+      <Charset>utf16le</Charset>
+    </collation>
+    <collation id="183" parent="1" name="cp1256_general_ci">
+      <Charset>cp1256</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="184" parent="1" name="cp1256_bin">
+      <Charset>cp1256</Charset>
+    </collation>
+    <collation id="185" parent="1" name="cp1257_lithuanian_ci">
+      <Charset>cp1257</Charset>
+    </collation>
+    <collation id="186" parent="1" name="cp1257_bin">
+      <Charset>cp1257</Charset>
+    </collation>
+    <collation id="187" parent="1" name="cp1257_general_ci">
+      <Charset>cp1257</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="188" parent="1" name="utf32_general_ci">
+      <Charset>utf32</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="189" parent="1" name="utf32_bin">
+      <Charset>utf32</Charset>
+    </collation>
+    <collation id="190" parent="1" name="utf32_unicode_ci">
+      <Charset>utf32</Charset>
+    </collation>
+    <collation id="191" parent="1" name="utf32_icelandic_ci">
+      <Charset>utf32</Charset>
+    </collation>
+    <collation id="192" parent="1" name="utf32_latvian_ci">
+      <Charset>utf32</Charset>
+    </collation>
+    <collation id="193" parent="1" name="utf32_romanian_ci">
+      <Charset>utf32</Charset>
+    </collation>
+    <collation id="194" parent="1" name="utf32_slovenian_ci">
+      <Charset>utf32</Charset>
+    </collation>
+    <collation id="195" parent="1" name="utf32_polish_ci">
+      <Charset>utf32</Charset>
+    </collation>
+    <collation id="196" parent="1" name="utf32_estonian_ci">
+      <Charset>utf32</Charset>
+    </collation>
+    <collation id="197" parent="1" name="utf32_spanish_ci">
+      <Charset>utf32</Charset>
+    </collation>
+    <collation id="198" parent="1" name="utf32_swedish_ci">
+      <Charset>utf32</Charset>
+    </collation>
+    <collation id="199" parent="1" name="utf32_turkish_ci">
+      <Charset>utf32</Charset>
+    </collation>
+    <collation id="200" parent="1" name="utf32_czech_ci">
+      <Charset>utf32</Charset>
+    </collation>
+    <collation id="201" parent="1" name="utf32_danish_ci">
+      <Charset>utf32</Charset>
+    </collation>
+    <collation id="202" parent="1" name="utf32_lithuanian_ci">
+      <Charset>utf32</Charset>
+    </collation>
+    <collation id="203" parent="1" name="utf32_slovak_ci">
+      <Charset>utf32</Charset>
+    </collation>
+    <collation id="204" parent="1" name="utf32_spanish2_ci">
+      <Charset>utf32</Charset>
+    </collation>
+    <collation id="205" parent="1" name="utf32_roman_ci">
+      <Charset>utf32</Charset>
+    </collation>
+    <collation id="206" parent="1" name="utf32_persian_ci">
+      <Charset>utf32</Charset>
+    </collation>
+    <collation id="207" parent="1" name="utf32_esperanto_ci">
+      <Charset>utf32</Charset>
+    </collation>
+    <collation id="208" parent="1" name="utf32_hungarian_ci">
+      <Charset>utf32</Charset>
+    </collation>
+    <collation id="209" parent="1" name="utf32_sinhala_ci">
+      <Charset>utf32</Charset>
+    </collation>
+    <collation id="210" parent="1" name="utf32_german2_ci">
+      <Charset>utf32</Charset>
+    </collation>
+    <collation id="211" parent="1" name="utf32_croatian_ci">
+      <Charset>utf32</Charset>
+    </collation>
+    <collation id="212" parent="1" name="utf32_unicode_520_ci">
+      <Charset>utf32</Charset>
+    </collation>
+    <collation id="213" parent="1" name="utf32_vietnamese_ci">
+      <Charset>utf32</Charset>
+    </collation>
+    <collation id="214" parent="1" name="binary">
+      <Charset>binary</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="215" parent="1" name="geostd8_general_ci">
+      <Charset>geostd8</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="216" parent="1" name="geostd8_bin">
+      <Charset>geostd8</Charset>
+    </collation>
+    <collation id="217" parent="1" name="cp932_japanese_ci">
+      <Charset>cp932</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="218" parent="1" name="cp932_bin">
+      <Charset>cp932</Charset>
+    </collation>
+    <collation id="219" parent="1" name="eucjpms_japanese_ci">
+      <Charset>eucjpms</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="220" parent="1" name="eucjpms_bin">
+      <Charset>eucjpms</Charset>
+    </collation>
+    <collation id="221" parent="1" name="gb18030_chinese_ci">
+      <Charset>gb18030</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="222" parent="1" name="gb18030_bin">
+      <Charset>gb18030</Charset>
+    </collation>
+    <collation id="223" parent="1" name="gb18030_unicode_520_ci">
+      <Charset>gb18030</Charset>
+    </collation>
+    <schema id="224" parent="1" name="information_schema">
+      <CollationName>utf8_general_ci</CollationName>
+    </schema>
+    <schema id="225" parent="1" name="keycloak">
+      <Current>1</Current>
+      <LastIntrospectionLocalTimestamp>2023-12-28.10:58:05</LastIntrospectionLocalTimestamp>
+      <CollationName>latin1_swedish_ci</CollationName>
+    </schema>
+    <user id="226" parent="1" name="keycloak"/>
+    <table id="227" parent="225" name="ADMIN_EVENT_ENTITY">
+      <Engine>InnoDB</Engine>
+      <CollationName>latin1_swedish_ci</CollationName>
+    </table>
+    <table id="228" parent="225" name="ASSOCIATED_POLICY">
+      <Engine>InnoDB</Engine>
+      <CollationName>latin1_swedish_ci</CollationName>
+    </table>
+    <table id="229" parent="225" name="AUTHENTICATION_EXECUTION">
+      <Engine>InnoDB</Engine>
+      <CollationName>latin1_swedish_ci</CollationName>
+    </table>
+    <table id="230" parent="225" name="AUTHENTICATION_FLOW">
+      <Engine>InnoDB</Engine>
+      <CollationName>latin1_swedish_ci</CollationName>
+    </table>
+    <table id="231" parent="225" name="AUTHENTICATOR_CONFIG">
+      <Engine>InnoDB</Engine>
+      <CollationName>latin1_swedish_ci</CollationName>
+    </table>
+    <table id="232" parent="225" name="AUTHENTICATOR_CONFIG_ENTRY">
+      <Engine>InnoDB</Engine>
+      <CollationName>latin1_swedish_ci</CollationName>
+    </table>
+    <table id="233" parent="225" name="BROKER_LINK">
+      <Engine>InnoDB</Engine>
+      <CollationName>latin1_swedish_ci</CollationName>
+    </table>
+    <table id="234" parent="225" name="CLIENT">
+      <Engine>InnoDB</Engine>
+      <CollationName>latin1_swedish_ci</CollationName>
+    </table>
+    <table id="235" parent="225" name="CLIENT_ATTRIBUTES">
+      <Engine>InnoDB</Engine>
+      <CollationName>latin1_swedish_ci</CollationName>
+    </table>
+    <table id="236" parent="225" name="CLIENT_AUTH_FLOW_BINDINGS">
+      <Engine>InnoDB</Engine>
+      <CollationName>latin1_swedish_ci</CollationName>
+    </table>
+    <table id="237" parent="225" name="CLIENT_INITIAL_ACCESS">
+      <Engine>InnoDB</Engine>
+      <CollationName>latin1_swedish_ci</CollationName>
+    </table>
+    <table id="238" parent="225" name="CLIENT_NODE_REGISTRATIONS">
+      <Engine>InnoDB</Engine>
+      <CollationName>latin1_swedish_ci</CollationName>
+    </table>
+    <table id="239" parent="225" name="CLIENT_SCOPE">
+      <Engine>InnoDB</Engine>
+      <CollationName>latin1_swedish_ci</CollationName>
+    </table>
+    <table id="240" parent="225" name="CLIENT_SCOPE_ATTRIBUTES">
+      <Engine>InnoDB</Engine>
+      <CollationName>latin1_swedish_ci</CollationName>
+    </table>
+    <table id="241" parent="225" name="CLIENT_SCOPE_CLIENT">
+      <Engine>InnoDB</Engine>
+      <CollationName>latin1_swedish_ci</CollationName>
+    </table>
+    <table id="242" parent="225" name="CLIENT_SCOPE_ROLE_MAPPING">
+      <Engine>InnoDB</Engine>
+      <CollationName>latin1_swedish_ci</CollationName>
+    </table>
+    <table id="243" parent="225" name="CLIENT_SESSION">
+      <Engine>InnoDB</Engine>
+      <CollationName>latin1_swedish_ci</CollationName>
+    </table>
+    <table id="244" parent="225" name="CLIENT_SESSION_AUTH_STATUS">
+      <Engine>InnoDB</Engine>
+      <CollationName>latin1_swedish_ci</CollationName>
+    </table>
+    <table id="245" parent="225" name="CLIENT_SESSION_NOTE">
+      <Engine>InnoDB</Engine>
+      <CollationName>latin1_swedish_ci</CollationName>
+    </table>
+    <table id="246" parent="225" name="CLIENT_SESSION_PROT_MAPPER">
+      <Engine>InnoDB</Engine>
+      <CollationName>latin1_swedish_ci</CollationName>
+    </table>
+    <table id="247" parent="225" name="CLIENT_SESSION_ROLE">
+      <Engine>InnoDB</Engine>
+      <CollationName>latin1_swedish_ci</CollationName>
+    </table>
+    <table id="248" parent="225" name="CLIENT_USER_SESSION_NOTE">
+      <Engine>InnoDB</Engine>
+      <CollationName>latin1_swedish_ci</CollationName>
+    </table>
+    <table id="249" parent="225" name="COMPONENT">
+      <Engine>InnoDB</Engine>
+      <CollationName>latin1_swedish_ci</CollationName>
+    </table>
+    <table id="250" parent="225" name="COMPONENT_CONFIG">
+      <Engine>InnoDB</Engine>
+      <CollationName>latin1_swedish_ci</CollationName>
+    </table>
+    <table id="251" parent="225" name="COMPOSITE_ROLE">
+      <Engine>InnoDB</Engine>
+      <CollationName>latin1_swedish_ci</CollationName>
+    </table>
+    <table id="252" parent="225" name="CREDENTIAL">
+      <Engine>InnoDB</Engine>
+      <CollationName>latin1_swedish_ci</CollationName>
+    </table>
+    <table id="253" parent="225" name="DATABASECHANGELOG">
+      <Engine>InnoDB</Engine>
+      <CollationName>latin1_swedish_ci</CollationName>
+    </table>
+    <table id="254" parent="225" name="DATABASECHANGELOGLOCK">
+      <Engine>InnoDB</Engine>
+      <CollationName>latin1_swedish_ci</CollationName>
+    </table>
+    <table id="255" parent="225" name="DEFAULT_CLIENT_SCOPE">
+      <Engine>InnoDB</Engine>
+      <CollationName>latin1_swedish_ci</CollationName>
+    </table>
+    <table id="256" parent="225" name="EVENT_ENTITY">
+      <Engine>InnoDB</Engine>
+      <CollationName>latin1_swedish_ci</CollationName>
+    </table>
+    <table id="257" parent="225" name="FEDERATED_IDENTITY">
+      <Engine>InnoDB</Engine>
+      <CollationName>latin1_swedish_ci</CollationName>
+    </table>
+    <table id="258" parent="225" name="FEDERATED_USER">
+      <Engine>InnoDB</Engine>
+      <CollationName>latin1_swedish_ci</CollationName>
+    </table>
+    <table id="259" parent="225" name="FED_USER_ATTRIBUTE">
+      <Engine>InnoDB</Engine>
+      <CollationName>latin1_swedish_ci</CollationName>
+    </table>
+    <table id="260" parent="225" name="FED_USER_CONSENT">
+      <Engine>InnoDB</Engine>
+      <CollationName>latin1_swedish_ci</CollationName>
+    </table>
+    <table id="261" parent="225" name="FED_USER_CONSENT_CL_SCOPE">
+      <Engine>InnoDB</Engine>
+      <CollationName>latin1_swedish_ci</CollationName>
+    </table>
+    <table id="262" parent="225" name="FED_USER_CREDENTIAL">
+      <Engine>InnoDB</Engine>
+      <CollationName>latin1_swedish_ci</CollationName>
+    </table>
+    <table id="263" parent="225" name="FED_USER_GROUP_MEMBERSHIP">
+      <Engine>InnoDB</Engine>
+      <CollationName>latin1_swedish_ci</CollationName>
+    </table>
+    <table id="264" parent="225" name="FED_USER_REQUIRED_ACTION">
+      <Engine>InnoDB</Engine>
+      <CollationName>latin1_swedish_ci</CollationName>
+    </table>
+    <table id="265" parent="225" name="FED_USER_ROLE_MAPPING">
+      <Engine>InnoDB</Engine>
+      <CollationName>latin1_swedish_ci</CollationName>
+    </table>
+    <table id="266" parent="225" name="GROUP_ATTRIBUTE">
+      <Engine>InnoDB</Engine>
+      <CollationName>latin1_swedish_ci</CollationName>
+    </table>
+    <table id="267" parent="225" name="GROUP_ROLE_MAPPING">
+      <Engine>InnoDB</Engine>
+      <CollationName>latin1_swedish_ci</CollationName>
+    </table>
+    <table id="268" parent="225" name="IDENTITY_PROVIDER">
+      <Engine>InnoDB</Engine>
+      <CollationName>latin1_swedish_ci</CollationName>
+    </table>
+    <table id="269" parent="225" name="IDENTITY_PROVIDER_CONFIG">
+      <Engine>InnoDB</Engine>
+      <CollationName>latin1_swedish_ci</CollationName>
+    </table>
+    <table id="270" parent="225" name="IDENTITY_PROVIDER_MAPPER">
+      <Engine>InnoDB</Engine>
+      <CollationName>latin1_swedish_ci</CollationName>
+    </table>
+    <table id="271" parent="225" name="IDP_MAPPER_CONFIG">
+      <Engine>InnoDB</Engine>
+      <CollationName>latin1_swedish_ci</CollationName>
+    </table>
+    <table id="272" parent="225" name="KEYCLOAK_GROUP">
+      <Engine>InnoDB</Engine>
+      <CollationName>latin1_swedish_ci</CollationName>
+    </table>
+    <table id="273" parent="225" name="KEYCLOAK_ROLE">
+      <Engine>InnoDB</Engine>
+      <CollationName>latin1_swedish_ci</CollationName>
+    </table>
+    <table id="274" parent="225" name="MIGRATION_MODEL">
+      <Engine>InnoDB</Engine>
+      <CollationName>latin1_swedish_ci</CollationName>
+    </table>
+    <table id="275" parent="225" name="OFFLINE_CLIENT_SESSION">
+      <Engine>InnoDB</Engine>
+      <CollationName>latin1_swedish_ci</CollationName>
+    </table>
+    <table id="276" parent="225" name="OFFLINE_USER_SESSION">
+      <Engine>InnoDB</Engine>
+      <CollationName>latin1_swedish_ci</CollationName>
+    </table>
+    <table id="277" parent="225" name="POLICY_CONFIG">
+      <Engine>InnoDB</Engine>
+      <CollationName>latin1_swedish_ci</CollationName>
+    </table>
+    <table id="278" parent="225" name="PROTOCOL_MAPPER">
+      <Engine>InnoDB</Engine>
+      <CollationName>latin1_swedish_ci</CollationName>
+    </table>
+    <table id="279" parent="225" name="PROTOCOL_MAPPER_CONFIG">
+      <Engine>InnoDB</Engine>
+      <CollationName>latin1_swedish_ci</CollationName>
+    </table>
+    <table id="280" parent="225" name="REALM">
+      <Engine>InnoDB</Engine>
+      <CollationName>latin1_swedish_ci</CollationName>
+    </table>
+    <table id="281" parent="225" name="REALM_ATTRIBUTE">
+      <Engine>InnoDB</Engine>
+      <CollationName>latin1_swedish_ci</CollationName>
+    </table>
+    <table id="282" parent="225" name="REALM_DEFAULT_GROUPS">
+      <Engine>InnoDB</Engine>
+      <CollationName>latin1_swedish_ci</CollationName>
+    </table>
+    <table id="283" parent="225" name="REALM_ENABLED_EVENT_TYPES">
+      <Engine>InnoDB</Engine>
+      <CollationName>latin1_swedish_ci</CollationName>
+    </table>
+    <table id="284" parent="225" name="REALM_EVENTS_LISTENERS">
+      <Engine>InnoDB</Engine>
+      <CollationName>latin1_swedish_ci</CollationName>
+    </table>
+    <table id="285" parent="225" name="REALM_LOCALIZATIONS">
+      <Engine>InnoDB</Engine>
+      <CollationName>latin1_swedish_ci</CollationName>
+    </table>
+    <table id="286" parent="225" name="REALM_REQUIRED_CREDENTIAL">
+      <Engine>InnoDB</Engine>
+      <CollationName>latin1_swedish_ci</CollationName>
+    </table>
+    <table id="287" parent="225" name="REALM_SMTP_CONFIG">
+      <Engine>InnoDB</Engine>
+      <CollationName>latin1_swedish_ci</CollationName>
+    </table>
+    <table id="288" parent="225" name="REALM_SUPPORTED_LOCALES">
+      <Engine>InnoDB</Engine>
+      <CollationName>latin1_swedish_ci</CollationName>
+    </table>
+    <table id="289" parent="225" name="REDIRECT_URIS">
+      <Engine>InnoDB</Engine>
+      <CollationName>latin1_swedish_ci</CollationName>
+    </table>
+    <table id="290" parent="225" name="REQUIRED_ACTION_CONFIG">
+      <Engine>InnoDB</Engine>
+      <CollationName>latin1_swedish_ci</CollationName>
+    </table>
+    <table id="291" parent="225" name="REQUIRED_ACTION_PROVIDER">
+      <Engine>InnoDB</Engine>
+      <CollationName>latin1_swedish_ci</CollationName>
+    </table>
+    <table id="292" parent="225" name="RESOURCE_ATTRIBUTE">
+      <Engine>InnoDB</Engine>
+      <CollationName>latin1_swedish_ci</CollationName>
+    </table>
+    <table id="293" parent="225" name="RESOURCE_POLICY">
+      <Engine>InnoDB</Engine>
+      <CollationName>latin1_swedish_ci</CollationName>
+    </table>
+    <table id="294" parent="225" name="RESOURCE_SCOPE">
+      <Engine>InnoDB</Engine>
+      <CollationName>latin1_swedish_ci</CollationName>
+    </table>
+    <table id="295" parent="225" name="RESOURCE_SERVER">
+      <Engine>InnoDB</Engine>
+      <CollationName>latin1_swedish_ci</CollationName>
+    </table>
+    <table id="296" parent="225" name="RESOURCE_SERVER_PERM_TICKET">
+      <Engine>InnoDB</Engine>
+      <CollationName>latin1_swedish_ci</CollationName>
+    </table>
+    <table id="297" parent="225" name="RESOURCE_SERVER_POLICY">
+      <Engine>InnoDB</Engine>
+      <CollationName>latin1_swedish_ci</CollationName>
+    </table>
+    <table id="298" parent="225" name="RESOURCE_SERVER_RESOURCE">
+      <Engine>InnoDB</Engine>
+      <CollationName>latin1_swedish_ci</CollationName>
+    </table>
+    <table id="299" parent="225" name="RESOURCE_SERVER_SCOPE">
+      <Engine>InnoDB</Engine>
+      <CollationName>latin1_swedish_ci</CollationName>
+    </table>
+    <table id="300" parent="225" name="RESOURCE_URIS">
+      <Engine>InnoDB</Engine>
+      <CollationName>latin1_swedish_ci</CollationName>
+    </table>
+    <table id="301" parent="225" name="ROLE_ATTRIBUTE">
+      <Engine>InnoDB</Engine>
+      <CollationName>latin1_swedish_ci</CollationName>
+    </table>
+    <table id="302" parent="225" name="SCOPE_MAPPING">
+      <Engine>InnoDB</Engine>
+      <CollationName>latin1_swedish_ci</CollationName>
+    </table>
+    <table id="303" parent="225" name="SCOPE_POLICY">
+      <Engine>InnoDB</Engine>
+      <CollationName>latin1_swedish_ci</CollationName>
+    </table>
+    <table id="304" parent="225" name="USERNAME_LOGIN_FAILURE">
+      <Engine>InnoDB</Engine>
+      <CollationName>latin1_swedish_ci</CollationName>
+    </table>
+    <table id="305" parent="225" name="USER_ATTRIBUTE">
+      <Engine>InnoDB</Engine>
+      <CollationName>latin1_swedish_ci</CollationName>
+    </table>
+    <table id="306" parent="225" name="USER_CONSENT">
+      <Engine>InnoDB</Engine>
+      <CollationName>latin1_swedish_ci</CollationName>
+    </table>
+    <table id="307" parent="225" name="USER_CONSENT_CLIENT_SCOPE">
+      <Engine>InnoDB</Engine>
+      <CollationName>latin1_swedish_ci</CollationName>
+    </table>
+    <table id="308" parent="225" name="USER_ENTITY">
+      <Engine>InnoDB</Engine>
+      <CollationName>latin1_swedish_ci</CollationName>
+    </table>
+    <table id="309" parent="225" name="USER_FEDERATION_CONFIG">
+      <Engine>InnoDB</Engine>
+      <CollationName>latin1_swedish_ci</CollationName>
+    </table>
+    <table id="310" parent="225" name="USER_FEDERATION_MAPPER">
+      <Engine>InnoDB</Engine>
+      <CollationName>latin1_swedish_ci</CollationName>
+    </table>
+    <table id="311" parent="225" name="USER_FEDERATION_MAPPER_CONFIG">
+      <Engine>InnoDB</Engine>
+      <CollationName>latin1_swedish_ci</CollationName>
+    </table>
+    <table id="312" parent="225" name="USER_FEDERATION_PROVIDER">
+      <Engine>InnoDB</Engine>
+      <CollationName>latin1_swedish_ci</CollationName>
+    </table>
+    <table id="313" parent="225" name="USER_GROUP_MEMBERSHIP">
+      <Engine>InnoDB</Engine>
+      <CollationName>latin1_swedish_ci</CollationName>
+    </table>
+    <table id="314" parent="225" name="USER_REQUIRED_ACTION">
+      <Engine>InnoDB</Engine>
+      <CollationName>latin1_swedish_ci</CollationName>
+    </table>
+    <table id="315" parent="225" name="USER_ROLE_MAPPING">
+      <Engine>InnoDB</Engine>
+      <CollationName>latin1_swedish_ci</CollationName>
+    </table>
+    <table id="316" parent="225" name="USER_SESSION">
+      <Engine>InnoDB</Engine>
+      <CollationName>latin1_swedish_ci</CollationName>
+    </table>
+    <table id="317" parent="225" name="USER_SESSION_NOTE">
+      <Engine>InnoDB</Engine>
+      <CollationName>latin1_swedish_ci</CollationName>
+    </table>
+    <table id="318" parent="225" name="WEB_ORIGINS">
+      <Engine>InnoDB</Engine>
+      <CollationName>latin1_swedish_ci</CollationName>
+    </table>
+    <column id="319" parent="227" name="ID">
+      <DasType>varchar(36)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="320" parent="227" name="ADMIN_EVENT_TIME">
+      <DasType>bigint(20)|0s</DasType>
+      <Position>2</Position>
+    </column>
+    <column id="321" parent="227" name="REALM_ID">
+      <DasType>varchar(255)|0s</DasType>
+      <Position>3</Position>
+    </column>
+    <column id="322" parent="227" name="OPERATION_TYPE">
+      <DasType>varchar(255)|0s</DasType>
+      <Position>4</Position>
+    </column>
+    <column id="323" parent="227" name="AUTH_REALM_ID">
+      <DasType>varchar(255)|0s</DasType>
+      <Position>5</Position>
+    </column>
+    <column id="324" parent="227" name="AUTH_CLIENT_ID">
+      <DasType>varchar(255)|0s</DasType>
+      <Position>6</Position>
+    </column>
+    <column id="325" parent="227" name="AUTH_USER_ID">
+      <DasType>varchar(255)|0s</DasType>
+      <Position>7</Position>
+    </column>
+    <column id="326" parent="227" name="IP_ADDRESS">
+      <DasType>varchar(255)|0s</DasType>
+      <Position>8</Position>
+    </column>
+    <column id="327" parent="227" name="RESOURCE_PATH">
+      <DasType>varchar(2550)|0s</DasType>
+      <Position>9</Position>
+    </column>
+    <column id="328" parent="227" name="REPRESENTATION">
+      <DasType>text|0s</DasType>
+      <Position>10</Position>
+    </column>
+    <column id="329" parent="227" name="ERROR">
+      <DasType>varchar(255)|0s</DasType>
+      <Position>11</Position>
+    </column>
+    <column id="330" parent="227" name="RESOURCE_TYPE">
+      <DasType>varchar(64)|0s</DasType>
+      <Position>12</Position>
+    </column>
+    <index id="331" parent="227" name="PRIMARY">
+      <ColNames>ID</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <index id="332" parent="227" name="IDX_ADMIN_EVENT_TIME">
+      <ColNames>REALM_ID
+ADMIN_EVENT_TIME</ColNames>
+      <Type>btree</Type>
+    </index>
+    <key id="333" parent="227" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
+    <column id="334" parent="228" name="POLICY_ID">
+      <DasType>varchar(36)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="335" parent="228" name="ASSOCIATED_POLICY_ID">
+      <DasType>varchar(36)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>2</Position>
+    </column>
+    <foreign-key id="336" parent="228" name="FK_FRSRPAS14XCX4WNKOG82SSRFY">
+      <ColNames>POLICY_ID</ColNames>
+      <RefColNames>ID</RefColNames>
+      <RefTableName>RESOURCE_SERVER_POLICY</RefTableName>
+    </foreign-key>
+    <foreign-key id="337" parent="228" name="FK_FRSR5S213XCX4WNKOG82SSRFY">
+      <ColNames>ASSOCIATED_POLICY_ID</ColNames>
+      <RefColNames>ID</RefColNames>
+      <RefTableName>RESOURCE_SERVER_POLICY</RefTableName>
+    </foreign-key>
+    <index id="338" parent="228" name="PRIMARY">
+      <ColNames>POLICY_ID
+ASSOCIATED_POLICY_ID</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <index id="339" parent="228" name="IDX_ASSOC_POL_ASSOC_POL_ID">
+      <ColNames>ASSOCIATED_POLICY_ID</ColNames>
+      <Type>btree</Type>
+    </index>
+    <key id="340" parent="228" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
+    <column id="341" parent="229" name="ID">
+      <DasType>varchar(36)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="342" parent="229" name="ALIAS">
+      <DasType>varchar(255)|0s</DasType>
+      <Position>2</Position>
+    </column>
+    <column id="343" parent="229" name="AUTHENTICATOR">
+      <DasType>varchar(36)|0s</DasType>
+      <Position>3</Position>
+    </column>
+    <column id="344" parent="229" name="REALM_ID">
+      <DasType>varchar(36)|0s</DasType>
+      <Position>4</Position>
+    </column>
+    <column id="345" parent="229" name="FLOW_ID">
+      <DasType>varchar(36)|0s</DasType>
+      <Position>5</Position>
+    </column>
+    <column id="346" parent="229" name="REQUIREMENT">
+      <DasType>int(11)|0s</DasType>
+      <Position>6</Position>
+    </column>
+    <column id="347" parent="229" name="PRIORITY">
+      <DasType>int(11)|0s</DasType>
+      <Position>7</Position>
+    </column>
+    <column id="348" parent="229" name="AUTHENTICATOR_FLOW">
+      <DasType>bit(1)|0s</DasType>
+      <DefaultExpression>b&apos;0&apos;</DefaultExpression>
+      <NotNull>1</NotNull>
+      <Position>8</Position>
+    </column>
+    <column id="349" parent="229" name="AUTH_FLOW_ID">
+      <DasType>varchar(36)|0s</DasType>
+      <Position>9</Position>
+    </column>
+    <column id="350" parent="229" name="AUTH_CONFIG">
+      <DasType>varchar(36)|0s</DasType>
+      <Position>10</Position>
+    </column>
+    <foreign-key id="351" parent="229" name="FK_AUTH_EXEC_REALM">
+      <ColNames>REALM_ID</ColNames>
+      <RefColNames>ID</RefColNames>
+      <RefTableName>REALM</RefTableName>
+    </foreign-key>
+    <foreign-key id="352" parent="229" name="FK_AUTH_EXEC_FLOW">
+      <ColNames>FLOW_ID</ColNames>
+      <RefColNames>ID</RefColNames>
+      <RefTableName>AUTHENTICATION_FLOW</RefTableName>
+    </foreign-key>
+    <index id="353" parent="229" name="PRIMARY">
+      <ColNames>ID</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <index id="354" parent="229" name="IDX_AUTH_EXEC_REALM_FLOW">
+      <ColNames>REALM_ID
+FLOW_ID</ColNames>
+      <Type>btree</Type>
+    </index>
+    <index id="355" parent="229" name="IDX_AUTH_EXEC_FLOW">
+      <ColNames>FLOW_ID</ColNames>
+      <Type>btree</Type>
+    </index>
+    <key id="356" parent="229" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
+    <column id="357" parent="230" name="ID">
+      <DasType>varchar(36)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="358" parent="230" name="ALIAS">
+      <DasType>varchar(255)|0s</DasType>
+      <Position>2</Position>
+    </column>
+    <column id="359" parent="230" name="DESCRIPTION">
+      <DasType>varchar(255)|0s</DasType>
+      <Position>3</Position>
+      <CollationName>utf8_general_ci</CollationName>
+    </column>
+    <column id="360" parent="230" name="REALM_ID">
+      <DasType>varchar(36)|0s</DasType>
+      <Position>4</Position>
+    </column>
+    <column id="361" parent="230" name="PROVIDER_ID">
+      <DasType>varchar(36)|0s</DasType>
+      <DefaultExpression>&apos;basic-flow&apos;</DefaultExpression>
+      <NotNull>1</NotNull>
+      <Position>5</Position>
+    </column>
+    <column id="362" parent="230" name="TOP_LEVEL">
+      <DasType>bit(1)|0s</DasType>
+      <DefaultExpression>b&apos;0&apos;</DefaultExpression>
+      <NotNull>1</NotNull>
+      <Position>6</Position>
+    </column>
+    <column id="363" parent="230" name="BUILT_IN">
+      <DasType>bit(1)|0s</DasType>
+      <DefaultExpression>b&apos;0&apos;</DefaultExpression>
+      <NotNull>1</NotNull>
+      <Position>7</Position>
+    </column>
+    <foreign-key id="364" parent="230" name="FK_AUTH_FLOW_REALM">
+      <ColNames>REALM_ID</ColNames>
+      <RefColNames>ID</RefColNames>
+      <RefTableName>REALM</RefTableName>
+    </foreign-key>
+    <index id="365" parent="230" name="PRIMARY">
+      <ColNames>ID</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <index id="366" parent="230" name="IDX_AUTH_FLOW_REALM">
+      <ColNames>REALM_ID</ColNames>
+      <Type>btree</Type>
+    </index>
+    <key id="367" parent="230" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
+    <column id="368" parent="231" name="ID">
+      <DasType>varchar(36)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="369" parent="231" name="ALIAS">
+      <DasType>varchar(255)|0s</DasType>
+      <Position>2</Position>
+    </column>
+    <column id="370" parent="231" name="REALM_ID">
+      <DasType>varchar(36)|0s</DasType>
+      <Position>3</Position>
+    </column>
+    <foreign-key id="371" parent="231" name="FK_AUTH_REALM">
+      <ColNames>REALM_ID</ColNames>
+      <RefColNames>ID</RefColNames>
+      <RefTableName>REALM</RefTableName>
+    </foreign-key>
+    <index id="372" parent="231" name="PRIMARY">
+      <ColNames>ID</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <index id="373" parent="231" name="IDX_AUTH_CONFIG_REALM">
+      <ColNames>REALM_ID</ColNames>
+      <Type>btree</Type>
+    </index>
+    <key id="374" parent="231" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
+    <column id="375" parent="232" name="AUTHENTICATOR_ID">
+      <DasType>varchar(36)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="376" parent="232" name="VALUE">
+      <DasType>longtext|0s</DasType>
+      <Position>2</Position>
+    </column>
+    <column id="377" parent="232" name="NAME">
+      <DasType>varchar(255)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>3</Position>
+    </column>
+    <index id="378" parent="232" name="PRIMARY">
+      <ColNames>AUTHENTICATOR_ID
+NAME</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <key id="379" parent="232" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
+    <column id="380" parent="233" name="IDENTITY_PROVIDER">
+      <DasType>varchar(255)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="381" parent="233" name="STORAGE_PROVIDER_ID">
+      <DasType>varchar(255)|0s</DasType>
+      <Position>2</Position>
+    </column>
+    <column id="382" parent="233" name="REALM_ID">
+      <DasType>varchar(36)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>3</Position>
+    </column>
+    <column id="383" parent="233" name="BROKER_USER_ID">
+      <DasType>varchar(255)|0s</DasType>
+      <Position>4</Position>
+    </column>
+    <column id="384" parent="233" name="BROKER_USERNAME">
+      <DasType>varchar(255)|0s</DasType>
+      <Position>5</Position>
+    </column>
+    <column id="385" parent="233" name="TOKEN">
+      <DasType>text|0s</DasType>
+      <Position>6</Position>
+    </column>
+    <column id="386" parent="233" name="USER_ID">
+      <DasType>varchar(255)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>7</Position>
+    </column>
+    <index id="387" parent="233" name="PRIMARY">
+      <ColNames>IDENTITY_PROVIDER
+USER_ID</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <key id="388" parent="233" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
+    <column id="389" parent="234" name="ID">
+      <DasType>varchar(36)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="390" parent="234" name="ENABLED">
+      <DasType>bit(1)|0s</DasType>
+      <DefaultExpression>b&apos;0&apos;</DefaultExpression>
+      <NotNull>1</NotNull>
+      <Position>2</Position>
+    </column>
+    <column id="391" parent="234" name="FULL_SCOPE_ALLOWED">
+      <DasType>bit(1)|0s</DasType>
+      <DefaultExpression>b&apos;0&apos;</DefaultExpression>
+      <NotNull>1</NotNull>
+      <Position>3</Position>
+    </column>
+    <column id="392" parent="234" name="CLIENT_ID">
+      <DasType>varchar(255)|0s</DasType>
+      <Position>4</Position>
+    </column>
+    <column id="393" parent="234" name="NOT_BEFORE">
+      <DasType>int(11)|0s</DasType>
+      <Position>5</Position>
+    </column>
+    <column id="394" parent="234" name="PUBLIC_CLIENT">
+      <DasType>bit(1)|0s</DasType>
+      <DefaultExpression>b&apos;0&apos;</DefaultExpression>
+      <NotNull>1</NotNull>
+      <Position>6</Position>
+    </column>
+    <column id="395" parent="234" name="SECRET">
+      <DasType>varchar(255)|0s</DasType>
+      <Position>7</Position>
+    </column>
+    <column id="396" parent="234" name="BASE_URL">
+      <DasType>varchar(255)|0s</DasType>
+      <Position>8</Position>
+    </column>
+    <column id="397" parent="234" name="BEARER_ONLY">
+      <DasType>bit(1)|0s</DasType>
+      <DefaultExpression>b&apos;0&apos;</DefaultExpression>
+      <NotNull>1</NotNull>
+      <Position>9</Position>
+    </column>
+    <column id="398" parent="234" name="MANAGEMENT_URL">
+      <DasType>varchar(255)|0s</DasType>
+      <Position>10</Position>
+    </column>
+    <column id="399" parent="234" name="SURROGATE_AUTH_REQUIRED">
+      <DasType>bit(1)|0s</DasType>
+      <DefaultExpression>b&apos;0&apos;</DefaultExpression>
+      <NotNull>1</NotNull>
+      <Position>11</Position>
+    </column>
+    <column id="400" parent="234" name="REALM_ID">
+      <DasType>varchar(36)|0s</DasType>
+      <Position>12</Position>
+    </column>
+    <column id="401" parent="234" name="PROTOCOL">
+      <DasType>varchar(255)|0s</DasType>
+      <Position>13</Position>
+    </column>
+    <column id="402" parent="234" name="NODE_REREG_TIMEOUT">
+      <DasType>int(11)|0s</DasType>
+      <DefaultExpression>0</DefaultExpression>
+      <Position>14</Position>
+    </column>
+    <column id="403" parent="234" name="FRONTCHANNEL_LOGOUT">
+      <DasType>bit(1)|0s</DasType>
+      <DefaultExpression>b&apos;0&apos;</DefaultExpression>
+      <NotNull>1</NotNull>
+      <Position>15</Position>
+    </column>
+    <column id="404" parent="234" name="CONSENT_REQUIRED">
+      <DasType>bit(1)|0s</DasType>
+      <DefaultExpression>b&apos;0&apos;</DefaultExpression>
+      <NotNull>1</NotNull>
+      <Position>16</Position>
+    </column>
+    <column id="405" parent="234" name="NAME">
+      <DasType>varchar(255)|0s</DasType>
+      <Position>17</Position>
+      <CollationName>utf8_general_ci</CollationName>
+    </column>
+    <column id="406" parent="234" name="SERVICE_ACCOUNTS_ENABLED">
+      <DasType>bit(1)|0s</DasType>
+      <DefaultExpression>b&apos;0&apos;</DefaultExpression>
+      <NotNull>1</NotNull>
+      <Position>18</Position>
+    </column>
+    <column id="407" parent="234" name="CLIENT_AUTHENTICATOR_TYPE">
+      <DasType>varchar(255)|0s</DasType>
+      <Position>19</Position>
+    </column>
+    <column id="408" parent="234" name="ROOT_URL">
+      <DasType>varchar(255)|0s</DasType>
+      <Position>20</Position>
+    </column>
+    <column id="409" parent="234" name="DESCRIPTION">
+      <DasType>varchar(255)|0s</DasType>
+      <Position>21</Position>
+      <CollationName>utf8_general_ci</CollationName>
+    </column>
+    <column id="410" parent="234" name="REGISTRATION_TOKEN">
+      <DasType>varchar(255)|0s</DasType>
+      <Position>22</Position>
+    </column>
+    <column id="411" parent="234" name="STANDARD_FLOW_ENABLED">
+      <DasType>bit(1)|0s</DasType>
+      <DefaultExpression>b&apos;1&apos;</DefaultExpression>
+      <NotNull>1</NotNull>
+      <Position>23</Position>
+    </column>
+    <column id="412" parent="234" name="IMPLICIT_FLOW_ENABLED">
+      <DasType>bit(1)|0s</DasType>
+      <DefaultExpression>b&apos;0&apos;</DefaultExpression>
+      <NotNull>1</NotNull>
+      <Position>24</Position>
+    </column>
+    <column id="413" parent="234" name="DIRECT_ACCESS_GRANTS_ENABLED">
+      <DasType>bit(1)|0s</DasType>
+      <DefaultExpression>b&apos;0&apos;</DefaultExpression>
+      <NotNull>1</NotNull>
+      <Position>25</Position>
+    </column>
+    <column id="414" parent="234" name="ALWAYS_DISPLAY_IN_CONSOLE">
+      <DasType>bit(1)|0s</DasType>
+      <DefaultExpression>b&apos;0&apos;</DefaultExpression>
+      <NotNull>1</NotNull>
+      <Position>26</Position>
+    </column>
+    <index id="415" parent="234" name="PRIMARY">
+      <ColNames>ID</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <index id="416" parent="234" name="UK_B71CJLBENV945RB6GCON438AT">
+      <ColNames>REALM_ID
+CLIENT_ID</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <index id="417" parent="234" name="IDX_CLIENT_ID">
+      <ColNames>CLIENT_ID</ColNames>
+      <Type>btree</Type>
+    </index>
+    <key id="418" parent="234" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
+    <key id="419" parent="234" name="UK_B71CJLBENV945RB6GCON438AT">
+      <UnderlyingIndexName>UK_B71CJLBENV945RB6GCON438AT</UnderlyingIndexName>
+    </key>
+    <column id="420" parent="235" name="CLIENT_ID">
+      <DasType>varchar(36)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="421" parent="235" name="VALUE">
+      <DasType>varchar(4000)|0s</DasType>
+      <Position>2</Position>
+    </column>
+    <column id="422" parent="235" name="NAME">
+      <DasType>varchar(255)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>3</Position>
+    </column>
+    <foreign-key id="423" parent="235" name="FK3C47C64BEACCA966">
+      <ColNames>CLIENT_ID</ColNames>
+      <RefColNames>ID</RefColNames>
+      <RefTableName>CLIENT</RefTableName>
+    </foreign-key>
+    <index id="424" parent="235" name="PRIMARY">
+      <ColNames>CLIENT_ID
+NAME</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <index id="425" parent="235" name="IDX_CLIENT_ATT_BY_NAME_VALUE">
+      <ColNames>NAME
+VALUE</ColNames>
+      <PrefixLengths>-1,255</PrefixLengths>
+      <Type>btree</Type>
+    </index>
+    <key id="426" parent="235" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
+    <column id="427" parent="236" name="CLIENT_ID">
+      <DasType>varchar(36)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="428" parent="236" name="FLOW_ID">
+      <DasType>varchar(36)|0s</DasType>
+      <Position>2</Position>
+    </column>
+    <column id="429" parent="236" name="BINDING_NAME">
+      <DasType>varchar(255)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>3</Position>
+    </column>
+    <index id="430" parent="236" name="PRIMARY">
+      <ColNames>CLIENT_ID
+BINDING_NAME</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <key id="431" parent="236" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
+    <column id="432" parent="237" name="ID">
+      <DasType>varchar(36)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="433" parent="237" name="REALM_ID">
+      <DasType>varchar(36)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>2</Position>
+    </column>
+    <column id="434" parent="237" name="TIMESTAMP">
+      <DasType>int(11)|0s</DasType>
+      <Position>3</Position>
+    </column>
+    <column id="435" parent="237" name="EXPIRATION">
+      <DasType>int(11)|0s</DasType>
+      <Position>4</Position>
+    </column>
+    <column id="436" parent="237" name="COUNT">
+      <DasType>int(11)|0s</DasType>
+      <Position>5</Position>
+    </column>
+    <column id="437" parent="237" name="REMAINING_COUNT">
+      <DasType>int(11)|0s</DasType>
+      <Position>6</Position>
+    </column>
+    <foreign-key id="438" parent="237" name="FK_CLIENT_INIT_ACC_REALM">
+      <ColNames>REALM_ID</ColNames>
+      <RefColNames>ID</RefColNames>
+      <RefTableName>REALM</RefTableName>
+    </foreign-key>
+    <index id="439" parent="237" name="PRIMARY">
+      <ColNames>ID</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <index id="440" parent="237" name="IDX_CLIENT_INIT_ACC_REALM">
+      <ColNames>REALM_ID</ColNames>
+      <Type>btree</Type>
+    </index>
+    <key id="441" parent="237" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
+    <column id="442" parent="238" name="CLIENT_ID">
+      <DasType>varchar(36)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="443" parent="238" name="VALUE">
+      <DasType>int(11)|0s</DasType>
+      <Position>2</Position>
+    </column>
+    <column id="444" parent="238" name="NAME">
+      <DasType>varchar(255)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>3</Position>
+    </column>
+    <foreign-key id="445" parent="238" name="FK4129723BA992F594">
+      <ColNames>CLIENT_ID</ColNames>
+      <RefColNames>ID</RefColNames>
+      <RefTableName>CLIENT</RefTableName>
+    </foreign-key>
+    <index id="446" parent="238" name="PRIMARY">
+      <ColNames>CLIENT_ID
+NAME</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <key id="447" parent="238" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
+    <column id="448" parent="239" name="ID">
+      <DasType>varchar(36)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="449" parent="239" name="NAME">
+      <DasType>varchar(255)|0s</DasType>
+      <Position>2</Position>
+    </column>
+    <column id="450" parent="239" name="REALM_ID">
+      <DasType>varchar(36)|0s</DasType>
+      <Position>3</Position>
+    </column>
+    <column id="451" parent="239" name="DESCRIPTION">
+      <DasType>varchar(255)|0s</DasType>
+      <Position>4</Position>
+      <CollationName>utf8_general_ci</CollationName>
+    </column>
+    <column id="452" parent="239" name="PROTOCOL">
+      <DasType>varchar(255)|0s</DasType>
+      <Position>5</Position>
+    </column>
+    <index id="453" parent="239" name="PRIMARY">
+      <ColNames>ID</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <index id="454" parent="239" name="UK_CLI_SCOPE">
+      <ColNames>REALM_ID
+NAME</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <index id="455" parent="239" name="IDX_REALM_CLSCOPE">
+      <ColNames>REALM_ID</ColNames>
+      <Type>btree</Type>
+    </index>
+    <key id="456" parent="239" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
+    <key id="457" parent="239" name="UK_CLI_SCOPE">
+      <UnderlyingIndexName>UK_CLI_SCOPE</UnderlyingIndexName>
+    </key>
+    <column id="458" parent="240" name="SCOPE_ID">
+      <DasType>varchar(36)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="459" parent="240" name="VALUE">
+      <DasType>varchar(2048)|0s</DasType>
+      <Position>2</Position>
+    </column>
+    <column id="460" parent="240" name="NAME">
+      <DasType>varchar(255)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>3</Position>
+    </column>
+    <foreign-key id="461" parent="240" name="FK_CL_SCOPE_ATTR_SCOPE">
+      <ColNames>SCOPE_ID</ColNames>
+      <RefColNames>ID</RefColNames>
+      <RefTableName>CLIENT_SCOPE</RefTableName>
+    </foreign-key>
+    <index id="462" parent="240" name="PRIMARY">
+      <ColNames>SCOPE_ID
+NAME</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <index id="463" parent="240" name="IDX_CLSCOPE_ATTRS">
+      <ColNames>SCOPE_ID</ColNames>
+      <Type>btree</Type>
+    </index>
+    <key id="464" parent="240" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
+    <column id="465" parent="241" name="CLIENT_ID">
+      <DasType>varchar(255)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="466" parent="241" name="SCOPE_ID">
+      <DasType>varchar(255)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>2</Position>
+    </column>
+    <column id="467" parent="241" name="DEFAULT_SCOPE">
+      <DasType>bit(1)|0s</DasType>
+      <DefaultExpression>b&apos;0&apos;</DefaultExpression>
+      <NotNull>1</NotNull>
+      <Position>3</Position>
+    </column>
+    <index id="468" parent="241" name="PRIMARY">
+      <ColNames>CLIENT_ID
+SCOPE_ID</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <index id="469" parent="241" name="IDX_CLSCOPE_CL">
+      <ColNames>CLIENT_ID</ColNames>
+      <Type>btree</Type>
+    </index>
+    <index id="470" parent="241" name="IDX_CL_CLSCOPE">
+      <ColNames>SCOPE_ID</ColNames>
+      <Type>btree</Type>
+    </index>
+    <key id="471" parent="241" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
+    <column id="472" parent="242" name="SCOPE_ID">
+      <DasType>varchar(36)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="473" parent="242" name="ROLE_ID">
+      <DasType>varchar(36)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>2</Position>
+    </column>
+    <foreign-key id="474" parent="242" name="FK_CL_SCOPE_RM_SCOPE">
+      <ColNames>SCOPE_ID</ColNames>
+      <RefColNames>ID</RefColNames>
+      <RefTableName>CLIENT_SCOPE</RefTableName>
+    </foreign-key>
+    <index id="475" parent="242" name="PRIMARY">
+      <ColNames>SCOPE_ID
+ROLE_ID</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <index id="476" parent="242" name="IDX_CLSCOPE_ROLE">
+      <ColNames>SCOPE_ID</ColNames>
+      <Type>btree</Type>
+    </index>
+    <index id="477" parent="242" name="IDX_ROLE_CLSCOPE">
+      <ColNames>ROLE_ID</ColNames>
+      <Type>btree</Type>
+    </index>
+    <key id="478" parent="242" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
+    <column id="479" parent="243" name="ID">
+      <DasType>varchar(36)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="480" parent="243" name="CLIENT_ID">
+      <DasType>varchar(36)|0s</DasType>
+      <Position>2</Position>
+    </column>
+    <column id="481" parent="243" name="REDIRECT_URI">
+      <DasType>varchar(255)|0s</DasType>
+      <Position>3</Position>
+    </column>
+    <column id="482" parent="243" name="STATE">
+      <DasType>varchar(255)|0s</DasType>
+      <Position>4</Position>
+    </column>
+    <column id="483" parent="243" name="TIMESTAMP">
+      <DasType>int(11)|0s</DasType>
+      <Position>5</Position>
+    </column>
+    <column id="484" parent="243" name="SESSION_ID">
+      <DasType>varchar(36)|0s</DasType>
+      <Position>6</Position>
+    </column>
+    <column id="485" parent="243" name="AUTH_METHOD">
+      <DasType>varchar(255)|0s</DasType>
+      <Position>7</Position>
+    </column>
+    <column id="486" parent="243" name="REALM_ID">
+      <DasType>varchar(255)|0s</DasType>
+      <Position>8</Position>
+    </column>
+    <column id="487" parent="243" name="AUTH_USER_ID">
+      <DasType>varchar(36)|0s</DasType>
+      <Position>9</Position>
+    </column>
+    <column id="488" parent="243" name="CURRENT_ACTION">
+      <DasType>varchar(36)|0s</DasType>
+      <Position>10</Position>
+    </column>
+    <foreign-key id="489" parent="243" name="FK_B4AO2VCVAT6UKAU74WBWTFQO1">
+      <ColNames>SESSION_ID</ColNames>
+      <RefColNames>ID</RefColNames>
+      <RefTableName>USER_SESSION</RefTableName>
+    </foreign-key>
+    <index id="490" parent="243" name="PRIMARY">
+      <ColNames>ID</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <index id="491" parent="243" name="IDX_CLIENT_SESSION_SESSION">
+      <ColNames>SESSION_ID</ColNames>
+      <Type>btree</Type>
+    </index>
+    <key id="492" parent="243" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
+    <column id="493" parent="244" name="AUTHENTICATOR">
+      <DasType>varchar(36)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="494" parent="244" name="STATUS">
+      <DasType>int(11)|0s</DasType>
+      <Position>2</Position>
+    </column>
+    <column id="495" parent="244" name="CLIENT_SESSION">
+      <DasType>varchar(36)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>3</Position>
+    </column>
+    <foreign-key id="496" parent="244" name="AUTH_STATUS_CONSTRAINT">
+      <ColNames>CLIENT_SESSION</ColNames>
+      <RefColNames>ID</RefColNames>
+      <RefTableName>CLIENT_SESSION</RefTableName>
+    </foreign-key>
+    <index id="497" parent="244" name="PRIMARY">
+      <ColNames>CLIENT_SESSION
+AUTHENTICATOR</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <key id="498" parent="244" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
+    <column id="499" parent="245" name="NAME">
+      <DasType>varchar(255)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="500" parent="245" name="VALUE">
+      <DasType>varchar(255)|0s</DasType>
+      <Position>2</Position>
+    </column>
+    <column id="501" parent="245" name="CLIENT_SESSION">
+      <DasType>varchar(36)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>3</Position>
+    </column>
+    <foreign-key id="502" parent="245" name="FK5EDFB00FF51C2736">
+      <ColNames>CLIENT_SESSION</ColNames>
+      <RefColNames>ID</RefColNames>
+      <RefTableName>CLIENT_SESSION</RefTableName>
+    </foreign-key>
+    <index id="503" parent="245" name="PRIMARY">
+      <ColNames>CLIENT_SESSION
+NAME</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <key id="504" parent="245" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
+    <column id="505" parent="246" name="PROTOCOL_MAPPER_ID">
+      <DasType>varchar(36)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="506" parent="246" name="CLIENT_SESSION">
+      <DasType>varchar(36)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>2</Position>
+    </column>
+    <foreign-key id="507" parent="246" name="FK_33A8SGQW18I532811V7O2DK89">
+      <ColNames>CLIENT_SESSION</ColNames>
+      <RefColNames>ID</RefColNames>
+      <RefTableName>CLIENT_SESSION</RefTableName>
+    </foreign-key>
+    <index id="508" parent="246" name="PRIMARY">
+      <ColNames>CLIENT_SESSION
+PROTOCOL_MAPPER_ID</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <key id="509" parent="246" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
+    <column id="510" parent="247" name="ROLE_ID">
+      <DasType>varchar(255)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="511" parent="247" name="CLIENT_SESSION">
+      <DasType>varchar(36)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>2</Position>
+    </column>
+    <foreign-key id="512" parent="247" name="FK_11B7SGQW18I532811V7O2DV76">
+      <ColNames>CLIENT_SESSION</ColNames>
+      <RefColNames>ID</RefColNames>
+      <RefTableName>CLIENT_SESSION</RefTableName>
+    </foreign-key>
+    <index id="513" parent="247" name="PRIMARY">
+      <ColNames>CLIENT_SESSION
+ROLE_ID</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <key id="514" parent="247" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
+    <column id="515" parent="248" name="NAME">
+      <DasType>varchar(255)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="516" parent="248" name="VALUE">
+      <DasType>varchar(2048)|0s</DasType>
+      <Position>2</Position>
+    </column>
+    <column id="517" parent="248" name="CLIENT_SESSION">
+      <DasType>varchar(36)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>3</Position>
+    </column>
+    <foreign-key id="518" parent="248" name="FK_CL_USR_SES_NOTE">
+      <ColNames>CLIENT_SESSION</ColNames>
+      <RefColNames>ID</RefColNames>
+      <RefTableName>CLIENT_SESSION</RefTableName>
+    </foreign-key>
+    <index id="519" parent="248" name="PRIMARY">
+      <ColNames>CLIENT_SESSION
+NAME</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <key id="520" parent="248" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
+    <column id="521" parent="249" name="ID">
+      <DasType>varchar(36)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="522" parent="249" name="NAME">
+      <DasType>varchar(255)|0s</DasType>
+      <Position>2</Position>
+    </column>
+    <column id="523" parent="249" name="PARENT_ID">
+      <DasType>varchar(36)|0s</DasType>
+      <Position>3</Position>
+    </column>
+    <column id="524" parent="249" name="PROVIDER_ID">
+      <DasType>varchar(36)|0s</DasType>
+      <Position>4</Position>
+    </column>
+    <column id="525" parent="249" name="PROVIDER_TYPE">
+      <DasType>varchar(255)|0s</DasType>
+      <Position>5</Position>
+    </column>
+    <column id="526" parent="249" name="REALM_ID">
+      <DasType>varchar(36)|0s</DasType>
+      <Position>6</Position>
+    </column>
+    <column id="527" parent="249" name="SUB_TYPE">
+      <DasType>varchar(255)|0s</DasType>
+      <Position>7</Position>
+    </column>
+    <foreign-key id="528" parent="249" name="FK_COMPONENT_REALM">
+      <ColNames>REALM_ID</ColNames>
+      <RefColNames>ID</RefColNames>
+      <RefTableName>REALM</RefTableName>
+    </foreign-key>
+    <index id="529" parent="249" name="PRIMARY">
+      <ColNames>ID</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <index id="530" parent="249" name="IDX_COMPONENT_PROVIDER_TYPE">
+      <ColNames>PROVIDER_TYPE</ColNames>
+      <Type>btree</Type>
+    </index>
+    <index id="531" parent="249" name="IDX_COMPONENT_REALM">
+      <ColNames>REALM_ID</ColNames>
+      <Type>btree</Type>
+    </index>
+    <key id="532" parent="249" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
+    <column id="533" parent="250" name="ID">
+      <DasType>varchar(36)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="534" parent="250" name="COMPONENT_ID">
+      <DasType>varchar(36)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>2</Position>
+    </column>
+    <column id="535" parent="250" name="NAME">
+      <DasType>varchar(255)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>3</Position>
+    </column>
+    <column id="536" parent="250" name="VALUE">
+      <DasType>varchar(4000)|0s</DasType>
+      <Position>4</Position>
+      <CollationName>utf8_general_ci</CollationName>
+    </column>
+    <foreign-key id="537" parent="250" name="FK_COMPONENT_CONFIG">
+      <ColNames>COMPONENT_ID</ColNames>
+      <RefColNames>ID</RefColNames>
+      <RefTableName>COMPONENT</RefTableName>
+    </foreign-key>
+    <index id="538" parent="250" name="PRIMARY">
+      <ColNames>ID</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <index id="539" parent="250" name="IDX_COMPO_CONFIG_COMPO">
+      <ColNames>COMPONENT_ID</ColNames>
+      <Type>btree</Type>
+    </index>
+    <key id="540" parent="250" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
+    <column id="541" parent="251" name="COMPOSITE">
+      <DasType>varchar(36)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="542" parent="251" name="CHILD_ROLE">
+      <DasType>varchar(36)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>2</Position>
+    </column>
+    <foreign-key id="543" parent="251" name="FK_A63WVEKFTU8JO1PNJ81E7MCE2">
+      <ColNames>COMPOSITE</ColNames>
+      <RefColNames>ID</RefColNames>
+      <RefTableName>KEYCLOAK_ROLE</RefTableName>
+    </foreign-key>
+    <foreign-key id="544" parent="251" name="FK_GR7THLLB9LU8Q4VQA4524JJY8">
+      <ColNames>CHILD_ROLE</ColNames>
+      <RefColNames>ID</RefColNames>
+      <RefTableName>KEYCLOAK_ROLE</RefTableName>
+    </foreign-key>
+    <index id="545" parent="251" name="PRIMARY">
+      <ColNames>COMPOSITE
+CHILD_ROLE</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <index id="546" parent="251" name="IDX_COMPOSITE">
+      <ColNames>COMPOSITE</ColNames>
+      <Type>btree</Type>
+    </index>
+    <index id="547" parent="251" name="IDX_COMPOSITE_CHILD">
+      <ColNames>CHILD_ROLE</ColNames>
+      <Type>btree</Type>
+    </index>
+    <key id="548" parent="251" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
+    <column id="549" parent="252" name="ID">
+      <DasType>varchar(36)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="550" parent="252" name="SALT">
+      <DasType>tinyblob|0s</DasType>
+      <Position>2</Position>
+    </column>
+    <column id="551" parent="252" name="TYPE">
+      <DasType>varchar(255)|0s</DasType>
+      <Position>3</Position>
+    </column>
+    <column id="552" parent="252" name="USER_ID">
+      <DasType>varchar(36)|0s</DasType>
+      <Position>4</Position>
+    </column>
+    <column id="553" parent="252" name="CREATED_DATE">
+      <DasType>bigint(20)|0s</DasType>
+      <Position>5</Position>
+    </column>
+    <column id="554" parent="252" name="USER_LABEL">
+      <DasType>varchar(255)|0s</DasType>
+      <Position>6</Position>
+    </column>
+    <column id="555" parent="252" name="SECRET_DATA">
+      <DasType>longtext|0s</DasType>
+      <Position>7</Position>
+    </column>
+    <column id="556" parent="252" name="CREDENTIAL_DATA">
+      <DasType>longtext|0s</DasType>
+      <Position>8</Position>
+    </column>
+    <column id="557" parent="252" name="PRIORITY">
+      <DasType>int(11)|0s</DasType>
+      <Position>9</Position>
+    </column>
+    <foreign-key id="558" parent="252" name="FK_PFYR0GLASQYL0DEI3KL69R6V0">
+      <ColNames>USER_ID</ColNames>
+      <RefColNames>ID</RefColNames>
+      <RefTableName>USER_ENTITY</RefTableName>
+    </foreign-key>
+    <index id="559" parent="252" name="PRIMARY">
+      <ColNames>ID</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <index id="560" parent="252" name="IDX_USER_CREDENTIAL">
+      <ColNames>USER_ID</ColNames>
+      <Type>btree</Type>
+    </index>
+    <key id="561" parent="252" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
+    <column id="562" parent="253" name="ID">
+      <DasType>varchar(255)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="563" parent="253" name="AUTHOR">
+      <DasType>varchar(255)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>2</Position>
+    </column>
+    <column id="564" parent="253" name="FILENAME">
+      <DasType>varchar(255)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>3</Position>
+    </column>
+    <column id="565" parent="253" name="DATEEXECUTED">
+      <DasType>datetime|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>4</Position>
+    </column>
+    <column id="566" parent="253" name="ORDEREXECUTED">
+      <DasType>int(11)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>5</Position>
+    </column>
+    <column id="567" parent="253" name="EXECTYPE">
+      <DasType>varchar(10)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>6</Position>
+    </column>
+    <column id="568" parent="253" name="MD5SUM">
+      <DasType>varchar(35)|0s</DasType>
+      <Position>7</Position>
+    </column>
+    <column id="569" parent="253" name="DESCRIPTION">
+      <DasType>varchar(255)|0s</DasType>
+      <Position>8</Position>
+    </column>
+    <column id="570" parent="253" name="COMMENTS">
+      <DasType>varchar(255)|0s</DasType>
+      <Position>9</Position>
+    </column>
+    <column id="571" parent="253" name="TAG">
+      <DasType>varchar(255)|0s</DasType>
+      <Position>10</Position>
+    </column>
+    <column id="572" parent="253" name="LIQUIBASE">
+      <DasType>varchar(20)|0s</DasType>
+      <Position>11</Position>
+    </column>
+    <column id="573" parent="253" name="CONTEXTS">
+      <DasType>varchar(255)|0s</DasType>
+      <Position>12</Position>
+    </column>
+    <column id="574" parent="253" name="LABELS">
+      <DasType>varchar(255)|0s</DasType>
+      <Position>13</Position>
+    </column>
+    <column id="575" parent="253" name="DEPLOYMENT_ID">
+      <DasType>varchar(10)|0s</DasType>
+      <Position>14</Position>
+    </column>
+    <column id="576" parent="254" name="ID">
+      <DasType>int(11)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="577" parent="254" name="LOCKED">
+      <DasType>bit(1)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>2</Position>
+    </column>
+    <column id="578" parent="254" name="LOCKGRANTED">
+      <DasType>datetime|0s</DasType>
+      <Position>3</Position>
+    </column>
+    <column id="579" parent="254" name="LOCKEDBY">
+      <DasType>varchar(255)|0s</DasType>
+      <Position>4</Position>
+    </column>
+    <index id="580" parent="254" name="PRIMARY">
+      <ColNames>ID</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <key id="581" parent="254" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
+    <column id="582" parent="255" name="REALM_ID">
+      <DasType>varchar(36)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="583" parent="255" name="SCOPE_ID">
+      <DasType>varchar(36)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>2</Position>
+    </column>
+    <column id="584" parent="255" name="DEFAULT_SCOPE">
+      <DasType>bit(1)|0s</DasType>
+      <DefaultExpression>b&apos;0&apos;</DefaultExpression>
+      <NotNull>1</NotNull>
+      <Position>3</Position>
+    </column>
+    <foreign-key id="585" parent="255" name="FK_R_DEF_CLI_SCOPE_REALM">
+      <ColNames>REALM_ID</ColNames>
+      <RefColNames>ID</RefColNames>
+      <RefTableName>REALM</RefTableName>
+    </foreign-key>
+    <index id="586" parent="255" name="PRIMARY">
+      <ColNames>REALM_ID
+SCOPE_ID</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <index id="587" parent="255" name="IDX_DEFCLS_REALM">
+      <ColNames>REALM_ID</ColNames>
+      <Type>btree</Type>
+    </index>
+    <index id="588" parent="255" name="IDX_DEFCLS_SCOPE">
+      <ColNames>SCOPE_ID</ColNames>
+      <Type>btree</Type>
+    </index>
+    <key id="589" parent="255" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
+    <column id="590" parent="256" name="ID">
+      <DasType>varchar(36)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="591" parent="256" name="CLIENT_ID">
+      <DasType>varchar(255)|0s</DasType>
+      <Position>2</Position>
+    </column>
+    <column id="592" parent="256" name="DETAILS_JSON">
+      <DasType>varchar(2550)|0s</DasType>
+      <Position>3</Position>
+    </column>
+    <column id="593" parent="256" name="ERROR">
+      <DasType>varchar(255)|0s</DasType>
+      <Position>4</Position>
+    </column>
+    <column id="594" parent="256" name="IP_ADDRESS">
+      <DasType>varchar(255)|0s</DasType>
+      <Position>5</Position>
+    </column>
+    <column id="595" parent="256" name="REALM_ID">
+      <DasType>varchar(255)|0s</DasType>
+      <Position>6</Position>
+    </column>
+    <column id="596" parent="256" name="SESSION_ID">
+      <DasType>varchar(255)|0s</DasType>
+      <Position>7</Position>
+    </column>
+    <column id="597" parent="256" name="EVENT_TIME">
+      <DasType>bigint(20)|0s</DasType>
+      <Position>8</Position>
+    </column>
+    <column id="598" parent="256" name="TYPE">
+      <DasType>varchar(255)|0s</DasType>
+      <Position>9</Position>
+    </column>
+    <column id="599" parent="256" name="USER_ID">
+      <DasType>varchar(255)|0s</DasType>
+      <Position>10</Position>
+    </column>
+    <index id="600" parent="256" name="PRIMARY">
+      <ColNames>ID</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <index id="601" parent="256" name="IDX_EVENT_TIME">
+      <ColNames>REALM_ID
+EVENT_TIME</ColNames>
+      <Type>btree</Type>
+    </index>
+    <key id="602" parent="256" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
+    <column id="603" parent="257" name="IDENTITY_PROVIDER">
+      <DasType>varchar(255)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="604" parent="257" name="REALM_ID">
+      <DasType>varchar(36)|0s</DasType>
+      <Position>2</Position>
+    </column>
+    <column id="605" parent="257" name="FEDERATED_USER_ID">
+      <DasType>varchar(255)|0s</DasType>
+      <Position>3</Position>
+    </column>
+    <column id="606" parent="257" name="FEDERATED_USERNAME">
+      <DasType>varchar(255)|0s</DasType>
+      <Position>4</Position>
+    </column>
+    <column id="607" parent="257" name="TOKEN">
+      <DasType>text|0s</DasType>
+      <Position>5</Position>
+    </column>
+    <column id="608" parent="257" name="USER_ID">
+      <DasType>varchar(36)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>6</Position>
+    </column>
+    <foreign-key id="609" parent="257" name="FK404288B92EF007A6">
+      <ColNames>USER_ID</ColNames>
+      <RefColNames>ID</RefColNames>
+      <RefTableName>USER_ENTITY</RefTableName>
+    </foreign-key>
+    <index id="610" parent="257" name="PRIMARY">
+      <ColNames>IDENTITY_PROVIDER
+USER_ID</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <index id="611" parent="257" name="IDX_FEDIDENTITY_FEDUSER">
+      <ColNames>FEDERATED_USER_ID</ColNames>
+      <Type>btree</Type>
+    </index>
+    <index id="612" parent="257" name="IDX_FEDIDENTITY_USER">
+      <ColNames>USER_ID</ColNames>
+      <Type>btree</Type>
+    </index>
+    <key id="613" parent="257" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
+    <column id="614" parent="258" name="ID">
+      <DasType>varchar(255)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="615" parent="258" name="STORAGE_PROVIDER_ID">
+      <DasType>varchar(255)|0s</DasType>
+      <Position>2</Position>
+    </column>
+    <column id="616" parent="258" name="REALM_ID">
+      <DasType>varchar(36)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>3</Position>
+    </column>
+    <index id="617" parent="258" name="PRIMARY">
+      <ColNames>ID</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <key id="618" parent="258" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
+    <column id="619" parent="259" name="ID">
+      <DasType>varchar(36)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="620" parent="259" name="NAME">
+      <DasType>varchar(255)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>2</Position>
+    </column>
+    <column id="621" parent="259" name="USER_ID">
+      <DasType>varchar(255)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>3</Position>
+    </column>
+    <column id="622" parent="259" name="REALM_ID">
+      <DasType>varchar(36)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>4</Position>
+    </column>
+    <column id="623" parent="259" name="STORAGE_PROVIDER_ID">
+      <DasType>varchar(36)|0s</DasType>
+      <Position>5</Position>
+    </column>
+    <column id="624" parent="259" name="VALUE">
+      <DasType>varchar(2024)|0s</DasType>
+      <Position>6</Position>
+    </column>
+    <index id="625" parent="259" name="PRIMARY">
+      <ColNames>ID</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <index id="626" parent="259" name="IDX_FU_ATTRIBUTE">
+      <ColNames>USER_ID
+REALM_ID
+NAME</ColNames>
+      <Type>btree</Type>
+    </index>
+    <key id="627" parent="259" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
+    <column id="628" parent="260" name="ID">
+      <DasType>varchar(36)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="629" parent="260" name="CLIENT_ID">
+      <DasType>varchar(255)|0s</DasType>
+      <Position>2</Position>
+    </column>
+    <column id="630" parent="260" name="USER_ID">
+      <DasType>varchar(255)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>3</Position>
+    </column>
+    <column id="631" parent="260" name="REALM_ID">
+      <DasType>varchar(36)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>4</Position>
+    </column>
+    <column id="632" parent="260" name="STORAGE_PROVIDER_ID">
+      <DasType>varchar(36)|0s</DasType>
+      <Position>5</Position>
+    </column>
+    <column id="633" parent="260" name="CREATED_DATE">
+      <DasType>bigint(20)|0s</DasType>
+      <Position>6</Position>
+    </column>
+    <column id="634" parent="260" name="LAST_UPDATED_DATE">
+      <DasType>bigint(20)|0s</DasType>
+      <Position>7</Position>
+    </column>
+    <column id="635" parent="260" name="CLIENT_STORAGE_PROVIDER">
+      <DasType>varchar(36)|0s</DasType>
+      <Position>8</Position>
+    </column>
+    <column id="636" parent="260" name="EXTERNAL_CLIENT_ID">
+      <DasType>varchar(255)|0s</DasType>
+      <Position>9</Position>
+    </column>
+    <index id="637" parent="260" name="PRIMARY">
+      <ColNames>ID</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <index id="638" parent="260" name="IDX_FU_CONSENT">
+      <ColNames>USER_ID
+CLIENT_ID</ColNames>
+      <Type>btree</Type>
+    </index>
+    <index id="639" parent="260" name="IDX_FU_CNSNT_EXT">
+      <ColNames>USER_ID
+CLIENT_STORAGE_PROVIDER
+EXTERNAL_CLIENT_ID</ColNames>
+      <Type>btree</Type>
+    </index>
+    <index id="640" parent="260" name="IDX_FU_CONSENT_RU">
+      <ColNames>REALM_ID
+USER_ID</ColNames>
+      <Type>btree</Type>
+    </index>
+    <key id="641" parent="260" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
+    <column id="642" parent="261" name="USER_CONSENT_ID">
+      <DasType>varchar(36)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="643" parent="261" name="SCOPE_ID">
+      <DasType>varchar(36)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>2</Position>
+    </column>
+    <index id="644" parent="261" name="PRIMARY">
+      <ColNames>USER_CONSENT_ID
+SCOPE_ID</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <key id="645" parent="261" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
+    <column id="646" parent="262" name="ID">
+      <DasType>varchar(36)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="647" parent="262" name="SALT">
+      <DasType>tinyblob|0s</DasType>
+      <Position>2</Position>
+    </column>
+    <column id="648" parent="262" name="TYPE">
+      <DasType>varchar(255)|0s</DasType>
+      <Position>3</Position>
+    </column>
+    <column id="649" parent="262" name="CREATED_DATE">
+      <DasType>bigint(20)|0s</DasType>
+      <Position>4</Position>
+    </column>
+    <column id="650" parent="262" name="USER_ID">
+      <DasType>varchar(255)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>5</Position>
+    </column>
+    <column id="651" parent="262" name="REALM_ID">
+      <DasType>varchar(36)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>6</Position>
+    </column>
+    <column id="652" parent="262" name="STORAGE_PROVIDER_ID">
+      <DasType>varchar(36)|0s</DasType>
+      <Position>7</Position>
+    </column>
+    <column id="653" parent="262" name="USER_LABEL">
+      <DasType>varchar(255)|0s</DasType>
+      <Position>8</Position>
+    </column>
+    <column id="654" parent="262" name="SECRET_DATA">
+      <DasType>longtext|0s</DasType>
+      <Position>9</Position>
+    </column>
+    <column id="655" parent="262" name="CREDENTIAL_DATA">
+      <DasType>longtext|0s</DasType>
+      <Position>10</Position>
+    </column>
+    <column id="656" parent="262" name="PRIORITY">
+      <DasType>int(11)|0s</DasType>
+      <Position>11</Position>
+    </column>
+    <index id="657" parent="262" name="PRIMARY">
+      <ColNames>ID</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <index id="658" parent="262" name="IDX_FU_CREDENTIAL">
+      <ColNames>USER_ID
+TYPE</ColNames>
+      <Type>btree</Type>
+    </index>
+    <index id="659" parent="262" name="IDX_FU_CREDENTIAL_RU">
+      <ColNames>REALM_ID
+USER_ID</ColNames>
+      <Type>btree</Type>
+    </index>
+    <key id="660" parent="262" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
+    <column id="661" parent="263" name="GROUP_ID">
+      <DasType>varchar(36)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="662" parent="263" name="USER_ID">
+      <DasType>varchar(255)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>2</Position>
+    </column>
+    <column id="663" parent="263" name="REALM_ID">
+      <DasType>varchar(36)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>3</Position>
+    </column>
+    <column id="664" parent="263" name="STORAGE_PROVIDER_ID">
+      <DasType>varchar(36)|0s</DasType>
+      <Position>4</Position>
+    </column>
+    <index id="665" parent="263" name="PRIMARY">
+      <ColNames>GROUP_ID
+USER_ID</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <index id="666" parent="263" name="IDX_FU_GROUP_MEMBERSHIP">
+      <ColNames>USER_ID
+GROUP_ID</ColNames>
+      <Type>btree</Type>
+    </index>
+    <index id="667" parent="263" name="IDX_FU_GROUP_MEMBERSHIP_RU">
+      <ColNames>REALM_ID
+USER_ID</ColNames>
+      <Type>btree</Type>
+    </index>
+    <key id="668" parent="263" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
+    <column id="669" parent="264" name="REQUIRED_ACTION">
+      <DasType>varchar(255)|0s</DasType>
+      <DefaultExpression>&apos; &apos;</DefaultExpression>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="670" parent="264" name="USER_ID">
+      <DasType>varchar(255)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>2</Position>
+    </column>
+    <column id="671" parent="264" name="REALM_ID">
+      <DasType>varchar(36)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>3</Position>
+    </column>
+    <column id="672" parent="264" name="STORAGE_PROVIDER_ID">
+      <DasType>varchar(36)|0s</DasType>
+      <Position>4</Position>
+    </column>
+    <index id="673" parent="264" name="PRIMARY">
+      <ColNames>REQUIRED_ACTION
+USER_ID</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <index id="674" parent="264" name="IDX_FU_REQUIRED_ACTION">
+      <ColNames>USER_ID
+REQUIRED_ACTION</ColNames>
+      <Type>btree</Type>
+    </index>
+    <index id="675" parent="264" name="IDX_FU_REQUIRED_ACTION_RU">
+      <ColNames>REALM_ID
+USER_ID</ColNames>
+      <Type>btree</Type>
+    </index>
+    <key id="676" parent="264" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
+    <column id="677" parent="265" name="ROLE_ID">
+      <DasType>varchar(36)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="678" parent="265" name="USER_ID">
+      <DasType>varchar(255)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>2</Position>
+    </column>
+    <column id="679" parent="265" name="REALM_ID">
+      <DasType>varchar(36)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>3</Position>
+    </column>
+    <column id="680" parent="265" name="STORAGE_PROVIDER_ID">
+      <DasType>varchar(36)|0s</DasType>
+      <Position>4</Position>
+    </column>
+    <index id="681" parent="265" name="PRIMARY">
+      <ColNames>ROLE_ID
+USER_ID</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <index id="682" parent="265" name="IDX_FU_ROLE_MAPPING">
+      <ColNames>USER_ID
+ROLE_ID</ColNames>
+      <Type>btree</Type>
+    </index>
+    <index id="683" parent="265" name="IDX_FU_ROLE_MAPPING_RU">
+      <ColNames>REALM_ID
+USER_ID</ColNames>
+      <Type>btree</Type>
+    </index>
+    <key id="684" parent="265" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
+    <column id="685" parent="266" name="ID">
+      <DasType>varchar(36)|0s</DasType>
+      <DefaultExpression>&apos;sybase-needs-something-here&apos;</DefaultExpression>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="686" parent="266" name="NAME">
+      <DasType>varchar(255)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>2</Position>
+    </column>
+    <column id="687" parent="266" name="VALUE">
+      <DasType>varchar(255)|0s</DasType>
+      <Position>3</Position>
+      <CollationName>utf8_general_ci</CollationName>
+    </column>
+    <column id="688" parent="266" name="GROUP_ID">
+      <DasType>varchar(36)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>4</Position>
+    </column>
+    <foreign-key id="689" parent="266" name="FK_GROUP_ATTRIBUTE_GROUP">
+      <ColNames>GROUP_ID</ColNames>
+      <RefColNames>ID</RefColNames>
+      <RefTableName>KEYCLOAK_GROUP</RefTableName>
+    </foreign-key>
+    <index id="690" parent="266" name="PRIMARY">
+      <ColNames>ID</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <index id="691" parent="266" name="IDX_GROUP_ATTR_GROUP">
+      <ColNames>GROUP_ID</ColNames>
+      <Type>btree</Type>
+    </index>
+    <key id="692" parent="266" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
+    <column id="693" parent="267" name="ROLE_ID">
+      <DasType>varchar(36)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="694" parent="267" name="GROUP_ID">
+      <DasType>varchar(36)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>2</Position>
+    </column>
+    <foreign-key id="695" parent="267" name="FK_GROUP_ROLE_GROUP">
+      <ColNames>GROUP_ID</ColNames>
+      <RefColNames>ID</RefColNames>
+      <RefTableName>KEYCLOAK_GROUP</RefTableName>
+    </foreign-key>
+    <index id="696" parent="267" name="PRIMARY">
+      <ColNames>ROLE_ID
+GROUP_ID</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <index id="697" parent="267" name="IDX_GROUP_ROLE_MAPP_GROUP">
+      <ColNames>GROUP_ID</ColNames>
+      <Type>btree</Type>
+    </index>
+    <key id="698" parent="267" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
+    <column id="699" parent="268" name="INTERNAL_ID">
+      <DasType>varchar(36)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="700" parent="268" name="ENABLED">
+      <DasType>bit(1)|0s</DasType>
+      <DefaultExpression>b&apos;0&apos;</DefaultExpression>
+      <NotNull>1</NotNull>
+      <Position>2</Position>
+    </column>
+    <column id="701" parent="268" name="PROVIDER_ALIAS">
+      <DasType>varchar(255)|0s</DasType>
+      <Position>3</Position>
+    </column>
+    <column id="702" parent="268" name="PROVIDER_ID">
+      <DasType>varchar(255)|0s</DasType>
+      <Position>4</Position>
+    </column>
+    <column id="703" parent="268" name="STORE_TOKEN">
+      <DasType>bit(1)|0s</DasType>
+      <DefaultExpression>b&apos;0&apos;</DefaultExpression>
+      <NotNull>1</NotNull>
+      <Position>5</Position>
+    </column>
+    <column id="704" parent="268" name="AUTHENTICATE_BY_DEFAULT">
+      <DasType>bit(1)|0s</DasType>
+      <DefaultExpression>b&apos;0&apos;</DefaultExpression>
+      <NotNull>1</NotNull>
+      <Position>6</Position>
+    </column>
+    <column id="705" parent="268" name="REALM_ID">
+      <DasType>varchar(36)|0s</DasType>
+      <Position>7</Position>
+    </column>
+    <column id="706" parent="268" name="ADD_TOKEN_ROLE">
+      <DasType>bit(1)|0s</DasType>
+      <DefaultExpression>b&apos;1&apos;</DefaultExpression>
+      <NotNull>1</NotNull>
+      <Position>8</Position>
+    </column>
+    <column id="707" parent="268" name="TRUST_EMAIL">
+      <DasType>bit(1)|0s</DasType>
+      <DefaultExpression>b&apos;0&apos;</DefaultExpression>
+      <NotNull>1</NotNull>
+      <Position>9</Position>
+    </column>
+    <column id="708" parent="268" name="FIRST_BROKER_LOGIN_FLOW_ID">
+      <DasType>varchar(36)|0s</DasType>
+      <Position>10</Position>
+    </column>
+    <column id="709" parent="268" name="POST_BROKER_LOGIN_FLOW_ID">
+      <DasType>varchar(36)|0s</DasType>
+      <Position>11</Position>
+    </column>
+    <column id="710" parent="268" name="PROVIDER_DISPLAY_NAME">
+      <DasType>varchar(255)|0s</DasType>
+      <Position>12</Position>
+    </column>
+    <column id="711" parent="268" name="LINK_ONLY">
+      <DasType>bit(1)|0s</DasType>
+      <DefaultExpression>b&apos;0&apos;</DefaultExpression>
+      <NotNull>1</NotNull>
+      <Position>13</Position>
+    </column>
+    <foreign-key id="712" parent="268" name="FK2B4EBC52AE5C3B34">
+      <ColNames>REALM_ID</ColNames>
+      <RefColNames>ID</RefColNames>
+      <RefTableName>REALM</RefTableName>
+    </foreign-key>
+    <index id="713" parent="268" name="PRIMARY">
+      <ColNames>INTERNAL_ID</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <index id="714" parent="268" name="UK_2DAELWNIBJI49AVXSRTUF6XJ33">
+      <ColNames>PROVIDER_ALIAS
+REALM_ID</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <index id="715" parent="268" name="IDX_IDENT_PROV_REALM">
+      <ColNames>REALM_ID</ColNames>
+      <Type>btree</Type>
+    </index>
+    <key id="716" parent="268" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
+    <key id="717" parent="268" name="UK_2DAELWNIBJI49AVXSRTUF6XJ33">
+      <UnderlyingIndexName>UK_2DAELWNIBJI49AVXSRTUF6XJ33</UnderlyingIndexName>
+    </key>
+    <column id="718" parent="269" name="IDENTITY_PROVIDER_ID">
+      <DasType>varchar(36)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="719" parent="269" name="VALUE">
+      <DasType>longtext|0s</DasType>
+      <Position>2</Position>
+    </column>
+    <column id="720" parent="269" name="NAME">
+      <DasType>varchar(255)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>3</Position>
+    </column>
+    <foreign-key id="721" parent="269" name="FKDC4897CF864C4E43">
+      <ColNames>IDENTITY_PROVIDER_ID</ColNames>
+      <RefColNames>INTERNAL_ID</RefColNames>
+      <RefTableName>IDENTITY_PROVIDER</RefTableName>
+    </foreign-key>
+    <index id="722" parent="269" name="PRIMARY">
+      <ColNames>IDENTITY_PROVIDER_ID
+NAME</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <key id="723" parent="269" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
+    <column id="724" parent="270" name="ID">
+      <DasType>varchar(36)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="725" parent="270" name="NAME">
+      <DasType>varchar(255)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>2</Position>
+    </column>
+    <column id="726" parent="270" name="IDP_ALIAS">
+      <DasType>varchar(255)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>3</Position>
+    </column>
+    <column id="727" parent="270" name="IDP_MAPPER_NAME">
+      <DasType>varchar(255)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>4</Position>
+    </column>
+    <column id="728" parent="270" name="REALM_ID">
+      <DasType>varchar(36)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>5</Position>
+    </column>
+    <foreign-key id="729" parent="270" name="FK_IDPM_REALM">
+      <ColNames>REALM_ID</ColNames>
+      <RefColNames>ID</RefColNames>
+      <RefTableName>REALM</RefTableName>
+    </foreign-key>
+    <index id="730" parent="270" name="PRIMARY">
+      <ColNames>ID</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <index id="731" parent="270" name="IDX_ID_PROV_MAPP_REALM">
+      <ColNames>REALM_ID</ColNames>
+      <Type>btree</Type>
+    </index>
+    <key id="732" parent="270" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
+    <column id="733" parent="271" name="IDP_MAPPER_ID">
+      <DasType>varchar(36)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="734" parent="271" name="VALUE">
+      <DasType>longtext|0s</DasType>
+      <Position>2</Position>
+    </column>
+    <column id="735" parent="271" name="NAME">
+      <DasType>varchar(255)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>3</Position>
+    </column>
+    <foreign-key id="736" parent="271" name="FK_IDPMCONFIG">
+      <ColNames>IDP_MAPPER_ID</ColNames>
+      <RefColNames>ID</RefColNames>
+      <RefTableName>IDENTITY_PROVIDER_MAPPER</RefTableName>
+    </foreign-key>
+    <index id="737" parent="271" name="PRIMARY">
+      <ColNames>IDP_MAPPER_ID
+NAME</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <key id="738" parent="271" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
+    <column id="739" parent="272" name="ID">
+      <DasType>varchar(36)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="740" parent="272" name="NAME">
+      <DasType>varchar(255)|0s</DasType>
+      <Position>2</Position>
+      <CollationName>utf8_general_ci</CollationName>
+    </column>
+    <column id="741" parent="272" name="PARENT_GROUP">
+      <DasType>varchar(36)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>3</Position>
+    </column>
+    <column id="742" parent="272" name="REALM_ID">
+      <DasType>varchar(36)|0s</DasType>
+      <Position>4</Position>
+    </column>
+    <index id="743" parent="272" name="PRIMARY">
+      <ColNames>ID</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <index id="744" parent="272" name="SIBLING_NAMES">
+      <ColNames>REALM_ID
+PARENT_GROUP
+NAME</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <key id="745" parent="272" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
+    <key id="746" parent="272" name="SIBLING_NAMES">
+      <UnderlyingIndexName>SIBLING_NAMES</UnderlyingIndexName>
+    </key>
+    <column id="747" parent="273" name="ID">
+      <DasType>varchar(36)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="748" parent="273" name="CLIENT_REALM_CONSTRAINT">
+      <DasType>varchar(255)|0s</DasType>
+      <Position>2</Position>
+    </column>
+    <column id="749" parent="273" name="CLIENT_ROLE">
+      <DasType>bit(1)|0s</DasType>
+      <Position>3</Position>
+    </column>
+    <column id="750" parent="273" name="DESCRIPTION">
+      <DasType>varchar(255)|0s</DasType>
+      <Position>4</Position>
+      <CollationName>utf8_general_ci</CollationName>
+    </column>
+    <column id="751" parent="273" name="NAME">
+      <DasType>varchar(255)|0s</DasType>
+      <Position>5</Position>
+      <CollationName>utf8_general_ci</CollationName>
+    </column>
+    <column id="752" parent="273" name="REALM_ID">
+      <DasType>varchar(255)|0s</DasType>
+      <Position>6</Position>
+    </column>
+    <column id="753" parent="273" name="CLIENT">
+      <DasType>varchar(36)|0s</DasType>
+      <Position>7</Position>
+    </column>
+    <column id="754" parent="273" name="REALM">
+      <DasType>varchar(36)|0s</DasType>
+      <Position>8</Position>
+    </column>
+    <foreign-key id="755" parent="273" name="FK_6VYQFE4CN4WLQ8R6KT5VDSJ5C">
+      <ColNames>REALM</ColNames>
+      <RefColNames>ID</RefColNames>
+      <RefTableName>REALM</RefTableName>
+    </foreign-key>
+    <index id="756" parent="273" name="PRIMARY">
+      <ColNames>ID</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <index id="757" parent="273" name="UK_J3RWUVD56ONTGSUHOGM184WW2-2">
+      <ColNames>NAME
+CLIENT_REALM_CONSTRAINT</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <index id="758" parent="273" name="IDX_KEYCLOAK_ROLE_CLIENT">
+      <ColNames>CLIENT</ColNames>
+      <Type>btree</Type>
+    </index>
+    <index id="759" parent="273" name="IDX_KEYCLOAK_ROLE_REALM">
+      <ColNames>REALM</ColNames>
+      <Type>btree</Type>
+    </index>
+    <key id="760" parent="273" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
+    <key id="761" parent="273" name="UK_J3RWUVD56ONTGSUHOGM184WW2-2">
+      <UnderlyingIndexName>UK_J3RWUVD56ONTGSUHOGM184WW2-2</UnderlyingIndexName>
+    </key>
+    <column id="762" parent="274" name="ID">
+      <DasType>varchar(36)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="763" parent="274" name="VERSION">
+      <DasType>varchar(36)|0s</DasType>
+      <Position>2</Position>
+    </column>
+    <column id="764" parent="274" name="UPDATE_TIME">
+      <DasType>bigint(20)|0s</DasType>
+      <DefaultExpression>0</DefaultExpression>
+      <NotNull>1</NotNull>
+      <Position>3</Position>
+    </column>
+    <index id="765" parent="274" name="PRIMARY">
+      <ColNames>ID</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <index id="766" parent="274" name="IDX_UPDATE_TIME">
+      <ColNames>UPDATE_TIME</ColNames>
+      <Type>btree</Type>
+    </index>
+    <key id="767" parent="274" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
+    <column id="768" parent="275" name="USER_SESSION_ID">
+      <DasType>varchar(36)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="769" parent="275" name="CLIENT_ID">
+      <DasType>varchar(255)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>2</Position>
+    </column>
+    <column id="770" parent="275" name="OFFLINE_FLAG">
+      <DasType>varchar(4)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>3</Position>
+    </column>
+    <column id="771" parent="275" name="TIMESTAMP">
+      <DasType>int(11)|0s</DasType>
+      <Position>4</Position>
+    </column>
+    <column id="772" parent="275" name="DATA">
+      <DasType>longtext|0s</DasType>
+      <Position>5</Position>
+    </column>
+    <column id="773" parent="275" name="CLIENT_STORAGE_PROVIDER">
+      <DasType>varchar(36)|0s</DasType>
+      <DefaultExpression>&apos;local&apos;</DefaultExpression>
+      <NotNull>1</NotNull>
+      <Position>6</Position>
+    </column>
+    <column id="774" parent="275" name="EXTERNAL_CLIENT_ID">
+      <DasType>varchar(255)|0s</DasType>
+      <DefaultExpression>&apos;local&apos;</DefaultExpression>
+      <NotNull>1</NotNull>
+      <Position>7</Position>
+    </column>
+    <index id="775" parent="275" name="PRIMARY">
+      <ColNames>USER_SESSION_ID
+CLIENT_ID
+CLIENT_STORAGE_PROVIDER
+EXTERNAL_CLIENT_ID
+OFFLINE_FLAG</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <index id="776" parent="275" name="IDX_US_SESS_ID_ON_CL_SESS">
+      <ColNames>USER_SESSION_ID</ColNames>
+      <Type>btree</Type>
+    </index>
+    <index id="777" parent="275" name="IDX_OFFLINE_CSS_PRELOAD">
+      <ColNames>CLIENT_ID
+OFFLINE_FLAG</ColNames>
+      <Type>btree</Type>
+    </index>
+    <key id="778" parent="275" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
+    <column id="779" parent="276" name="USER_SESSION_ID">
+      <DasType>varchar(36)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="780" parent="276" name="USER_ID">
+      <DasType>varchar(255)|0s</DasType>
+      <Position>2</Position>
+    </column>
+    <column id="781" parent="276" name="REALM_ID">
+      <DasType>varchar(36)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>3</Position>
+    </column>
+    <column id="782" parent="276" name="CREATED_ON">
+      <DasType>int(11)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>4</Position>
+    </column>
+    <column id="783" parent="276" name="OFFLINE_FLAG">
+      <DasType>varchar(4)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>5</Position>
+    </column>
+    <column id="784" parent="276" name="DATA">
+      <DasType>longtext|0s</DasType>
+      <Position>6</Position>
+    </column>
+    <column id="785" parent="276" name="LAST_SESSION_REFRESH">
+      <DasType>int(11)|0s</DasType>
+      <DefaultExpression>0</DefaultExpression>
+      <NotNull>1</NotNull>
+      <Position>7</Position>
+    </column>
+    <index id="786" parent="276" name="PRIMARY">
+      <ColNames>USER_SESSION_ID
+OFFLINE_FLAG</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <index id="787" parent="276" name="IDX_OFFLINE_USS_BY_USER">
+      <ColNames>USER_ID
+REALM_ID
+OFFLINE_FLAG</ColNames>
+      <Type>btree</Type>
+    </index>
+    <index id="788" parent="276" name="IDX_OFFLINE_USS_BY_USERSESS">
+      <ColNames>REALM_ID
+OFFLINE_FLAG
+USER_SESSION_ID</ColNames>
+      <Type>btree</Type>
+    </index>
+    <index id="789" parent="276" name="IDX_OFFLINE_USS_CREATEDON">
+      <ColNames>CREATED_ON</ColNames>
+      <Type>btree</Type>
+    </index>
+    <index id="790" parent="276" name="IDX_OFFLINE_USS_PRELOAD">
+      <ColNames>OFFLINE_FLAG
+CREATED_ON
+USER_SESSION_ID</ColNames>
+      <Type>btree</Type>
+    </index>
+    <key id="791" parent="276" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
+    <column id="792" parent="277" name="POLICY_ID">
+      <DasType>varchar(36)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="793" parent="277" name="NAME">
+      <DasType>varchar(255)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>2</Position>
+    </column>
+    <column id="794" parent="277" name="VALUE">
+      <DasType>longtext|0s</DasType>
+      <Position>3</Position>
+    </column>
+    <foreign-key id="795" parent="277" name="FKDC34197CF864C4E43">
+      <ColNames>POLICY_ID</ColNames>
+      <RefColNames>ID</RefColNames>
+      <RefTableName>RESOURCE_SERVER_POLICY</RefTableName>
+    </foreign-key>
+    <index id="796" parent="277" name="PRIMARY">
+      <ColNames>POLICY_ID
+NAME</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <key id="797" parent="277" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
+    <column id="798" parent="278" name="ID">
+      <DasType>varchar(36)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="799" parent="278" name="NAME">
+      <DasType>varchar(255)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>2</Position>
+    </column>
+    <column id="800" parent="278" name="PROTOCOL">
+      <DasType>varchar(255)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>3</Position>
+    </column>
+    <column id="801" parent="278" name="PROTOCOL_MAPPER_NAME">
+      <DasType>varchar(255)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>4</Position>
+    </column>
+    <column id="802" parent="278" name="CLIENT_ID">
+      <DasType>varchar(36)|0s</DasType>
+      <Position>5</Position>
+    </column>
+    <column id="803" parent="278" name="CLIENT_SCOPE_ID">
+      <DasType>varchar(36)|0s</DasType>
+      <Position>6</Position>
+    </column>
+    <foreign-key id="804" parent="278" name="FK_PCM_REALM">
+      <ColNames>CLIENT_ID</ColNames>
+      <RefColNames>ID</RefColNames>
+      <RefTableName>CLIENT</RefTableName>
+    </foreign-key>
+    <foreign-key id="805" parent="278" name="FK_CLI_SCOPE_MAPPER">
+      <ColNames>CLIENT_SCOPE_ID</ColNames>
+      <RefColNames>ID</RefColNames>
+      <RefTableName>CLIENT_SCOPE</RefTableName>
+    </foreign-key>
+    <index id="806" parent="278" name="PRIMARY">
+      <ColNames>ID</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <index id="807" parent="278" name="IDX_PROTOCOL_MAPPER_CLIENT">
+      <ColNames>CLIENT_ID</ColNames>
+      <Type>btree</Type>
+    </index>
+    <index id="808" parent="278" name="IDX_CLSCOPE_PROTMAP">
+      <ColNames>CLIENT_SCOPE_ID</ColNames>
+      <Type>btree</Type>
+    </index>
+    <key id="809" parent="278" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
+    <column id="810" parent="279" name="PROTOCOL_MAPPER_ID">
+      <DasType>varchar(36)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="811" parent="279" name="VALUE">
+      <DasType>longtext|0s</DasType>
+      <Position>2</Position>
+    </column>
+    <column id="812" parent="279" name="NAME">
+      <DasType>varchar(255)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>3</Position>
+    </column>
+    <foreign-key id="813" parent="279" name="FK_PMCONFIG">
+      <ColNames>PROTOCOL_MAPPER_ID</ColNames>
+      <RefColNames>ID</RefColNames>
+      <RefTableName>PROTOCOL_MAPPER</RefTableName>
+    </foreign-key>
+    <index id="814" parent="279" name="PRIMARY">
+      <ColNames>PROTOCOL_MAPPER_ID
+NAME</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <key id="815" parent="279" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
+    <column id="816" parent="280" name="ID">
+      <DasType>varchar(36)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="817" parent="280" name="ACCESS_CODE_LIFESPAN">
+      <DasType>int(11)|0s</DasType>
+      <Position>2</Position>
+    </column>
+    <column id="818" parent="280" name="USER_ACTION_LIFESPAN">
+      <DasType>int(11)|0s</DasType>
+      <Position>3</Position>
+    </column>
+    <column id="819" parent="280" name="ACCESS_TOKEN_LIFESPAN">
+      <DasType>int(11)|0s</DasType>
+      <Position>4</Position>
+    </column>
+    <column id="820" parent="280" name="ACCOUNT_THEME">
+      <DasType>varchar(255)|0s</DasType>
+      <Position>5</Position>
+    </column>
+    <column id="821" parent="280" name="ADMIN_THEME">
+      <DasType>varchar(255)|0s</DasType>
+      <Position>6</Position>
+    </column>
+    <column id="822" parent="280" name="EMAIL_THEME">
+      <DasType>varchar(255)|0s</DasType>
+      <Position>7</Position>
+    </column>
+    <column id="823" parent="280" name="ENABLED">
+      <DasType>bit(1)|0s</DasType>
+      <DefaultExpression>b&apos;0&apos;</DefaultExpression>
+      <NotNull>1</NotNull>
+      <Position>8</Position>
+    </column>
+    <column id="824" parent="280" name="EVENTS_ENABLED">
+      <DasType>bit(1)|0s</DasType>
+      <DefaultExpression>b&apos;0&apos;</DefaultExpression>
+      <NotNull>1</NotNull>
+      <Position>9</Position>
+    </column>
+    <column id="825" parent="280" name="EVENTS_EXPIRATION">
+      <DasType>bigint(20)|0s</DasType>
+      <Position>10</Position>
+    </column>
+    <column id="826" parent="280" name="LOGIN_THEME">
+      <DasType>varchar(255)|0s</DasType>
+      <Position>11</Position>
+    </column>
+    <column id="827" parent="280" name="NAME">
+      <DasType>varchar(255)|0s</DasType>
+      <Position>12</Position>
+    </column>
+    <column id="828" parent="280" name="NOT_BEFORE">
+      <DasType>int(11)|0s</DasType>
+      <Position>13</Position>
+    </column>
+    <column id="829" parent="280" name="PASSWORD_POLICY">
+      <DasType>varchar(2550)|0s</DasType>
+      <Position>14</Position>
+    </column>
+    <column id="830" parent="280" name="REGISTRATION_ALLOWED">
+      <DasType>bit(1)|0s</DasType>
+      <DefaultExpression>b&apos;0&apos;</DefaultExpression>
+      <NotNull>1</NotNull>
+      <Position>15</Position>
+    </column>
+    <column id="831" parent="280" name="REMEMBER_ME">
+      <DasType>bit(1)|0s</DasType>
+      <DefaultExpression>b&apos;0&apos;</DefaultExpression>
+      <NotNull>1</NotNull>
+      <Position>16</Position>
+    </column>
+    <column id="832" parent="280" name="RESET_PASSWORD_ALLOWED">
+      <DasType>bit(1)|0s</DasType>
+      <DefaultExpression>b&apos;0&apos;</DefaultExpression>
+      <NotNull>1</NotNull>
+      <Position>17</Position>
+    </column>
+    <column id="833" parent="280" name="SOCIAL">
+      <DasType>bit(1)|0s</DasType>
+      <DefaultExpression>b&apos;0&apos;</DefaultExpression>
+      <NotNull>1</NotNull>
+      <Position>18</Position>
+    </column>
+    <column id="834" parent="280" name="SSL_REQUIRED">
+      <DasType>varchar(255)|0s</DasType>
+      <Position>19</Position>
+    </column>
+    <column id="835" parent="280" name="SSO_IDLE_TIMEOUT">
+      <DasType>int(11)|0s</DasType>
+      <Position>20</Position>
+    </column>
+    <column id="836" parent="280" name="SSO_MAX_LIFESPAN">
+      <DasType>int(11)|0s</DasType>
+      <Position>21</Position>
+    </column>
+    <column id="837" parent="280" name="UPDATE_PROFILE_ON_SOC_LOGIN">
+      <DasType>bit(1)|0s</DasType>
+      <DefaultExpression>b&apos;0&apos;</DefaultExpression>
+      <NotNull>1</NotNull>
+      <Position>22</Position>
+    </column>
+    <column id="838" parent="280" name="VERIFY_EMAIL">
+      <DasType>bit(1)|0s</DasType>
+      <DefaultExpression>b&apos;0&apos;</DefaultExpression>
+      <NotNull>1</NotNull>
+      <Position>23</Position>
+    </column>
+    <column id="839" parent="280" name="MASTER_ADMIN_CLIENT">
+      <DasType>varchar(36)|0s</DasType>
+      <Position>24</Position>
+    </column>
+    <column id="840" parent="280" name="LOGIN_LIFESPAN">
+      <DasType>int(11)|0s</DasType>
+      <Position>25</Position>
+    </column>
+    <column id="841" parent="280" name="INTERNATIONALIZATION_ENABLED">
+      <DasType>bit(1)|0s</DasType>
+      <DefaultExpression>b&apos;0&apos;</DefaultExpression>
+      <NotNull>1</NotNull>
+      <Position>26</Position>
+    </column>
+    <column id="842" parent="280" name="DEFAULT_LOCALE">
+      <DasType>varchar(255)|0s</DasType>
+      <Position>27</Position>
+    </column>
+    <column id="843" parent="280" name="REG_EMAIL_AS_USERNAME">
+      <DasType>bit(1)|0s</DasType>
+      <DefaultExpression>b&apos;0&apos;</DefaultExpression>
+      <NotNull>1</NotNull>
+      <Position>28</Position>
+    </column>
+    <column id="844" parent="280" name="ADMIN_EVENTS_ENABLED">
+      <DasType>bit(1)|0s</DasType>
+      <DefaultExpression>b&apos;0&apos;</DefaultExpression>
+      <NotNull>1</NotNull>
+      <Position>29</Position>
+    </column>
+    <column id="845" parent="280" name="ADMIN_EVENTS_DETAILS_ENABLED">
+      <DasType>bit(1)|0s</DasType>
+      <DefaultExpression>b&apos;0&apos;</DefaultExpression>
+      <NotNull>1</NotNull>
+      <Position>30</Position>
+    </column>
+    <column id="846" parent="280" name="EDIT_USERNAME_ALLOWED">
+      <DasType>bit(1)|0s</DasType>
+      <DefaultExpression>b&apos;0&apos;</DefaultExpression>
+      <NotNull>1</NotNull>
+      <Position>31</Position>
+    </column>
+    <column id="847" parent="280" name="OTP_POLICY_COUNTER">
+      <DasType>int(11)|0s</DasType>
+      <DefaultExpression>0</DefaultExpression>
+      <Position>32</Position>
+    </column>
+    <column id="848" parent="280" name="OTP_POLICY_WINDOW">
+      <DasType>int(11)|0s</DasType>
+      <DefaultExpression>1</DefaultExpression>
+      <Position>33</Position>
+    </column>
+    <column id="849" parent="280" name="OTP_POLICY_PERIOD">
+      <DasType>int(11)|0s</DasType>
+      <DefaultExpression>30</DefaultExpression>
+      <Position>34</Position>
+    </column>
+    <column id="850" parent="280" name="OTP_POLICY_DIGITS">
+      <DasType>int(11)|0s</DasType>
+      <DefaultExpression>6</DefaultExpression>
+      <Position>35</Position>
+    </column>
+    <column id="851" parent="280" name="OTP_POLICY_ALG">
+      <DasType>varchar(36)|0s</DasType>
+      <DefaultExpression>&apos;HmacSHA1&apos;</DefaultExpression>
+      <Position>36</Position>
+    </column>
+    <column id="852" parent="280" name="OTP_POLICY_TYPE">
+      <DasType>varchar(36)|0s</DasType>
+      <DefaultExpression>&apos;totp&apos;</DefaultExpression>
+      <Position>37</Position>
+    </column>
+    <column id="853" parent="280" name="BROWSER_FLOW">
+      <DasType>varchar(36)|0s</DasType>
+      <Position>38</Position>
+    </column>
+    <column id="854" parent="280" name="REGISTRATION_FLOW">
+      <DasType>varchar(36)|0s</DasType>
+      <Position>39</Position>
+    </column>
+    <column id="855" parent="280" name="DIRECT_GRANT_FLOW">
+      <DasType>varchar(36)|0s</DasType>
+      <Position>40</Position>
+    </column>
+    <column id="856" parent="280" name="RESET_CREDENTIALS_FLOW">
+      <DasType>varchar(36)|0s</DasType>
+      <Position>41</Position>
+    </column>
+    <column id="857" parent="280" name="CLIENT_AUTH_FLOW">
+      <DasType>varchar(36)|0s</DasType>
+      <Position>42</Position>
+    </column>
+    <column id="858" parent="280" name="OFFLINE_SESSION_IDLE_TIMEOUT">
+      <DasType>int(11)|0s</DasType>
+      <DefaultExpression>0</DefaultExpression>
+      <Position>43</Position>
+    </column>
+    <column id="859" parent="280" name="REVOKE_REFRESH_TOKEN">
+      <DasType>bit(1)|0s</DasType>
+      <DefaultExpression>b&apos;0&apos;</DefaultExpression>
+      <NotNull>1</NotNull>
+      <Position>44</Position>
+    </column>
+    <column id="860" parent="280" name="ACCESS_TOKEN_LIFE_IMPLICIT">
+      <DasType>int(11)|0s</DasType>
+      <DefaultExpression>0</DefaultExpression>
+      <Position>45</Position>
+    </column>
+    <column id="861" parent="280" name="LOGIN_WITH_EMAIL_ALLOWED">
+      <DasType>bit(1)|0s</DasType>
+      <DefaultExpression>b&apos;1&apos;</DefaultExpression>
+      <NotNull>1</NotNull>
+      <Position>46</Position>
+    </column>
+    <column id="862" parent="280" name="DUPLICATE_EMAILS_ALLOWED">
+      <DasType>bit(1)|0s</DasType>
+      <DefaultExpression>b&apos;0&apos;</DefaultExpression>
+      <NotNull>1</NotNull>
+      <Position>47</Position>
+    </column>
+    <column id="863" parent="280" name="DOCKER_AUTH_FLOW">
+      <DasType>varchar(36)|0s</DasType>
+      <Position>48</Position>
+    </column>
+    <column id="864" parent="280" name="REFRESH_TOKEN_MAX_REUSE">
+      <DasType>int(11)|0s</DasType>
+      <DefaultExpression>0</DefaultExpression>
+      <Position>49</Position>
+    </column>
+    <column id="865" parent="280" name="ALLOW_USER_MANAGED_ACCESS">
+      <DasType>bit(1)|0s</DasType>
+      <DefaultExpression>b&apos;0&apos;</DefaultExpression>
+      <NotNull>1</NotNull>
+      <Position>50</Position>
+    </column>
+    <column id="866" parent="280" name="SSO_MAX_LIFESPAN_REMEMBER_ME">
+      <DasType>int(11)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>51</Position>
+    </column>
+    <column id="867" parent="280" name="SSO_IDLE_TIMEOUT_REMEMBER_ME">
+      <DasType>int(11)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>52</Position>
+    </column>
+    <column id="868" parent="280" name="DEFAULT_ROLE">
+      <DasType>varchar(255)|0s</DasType>
+      <Position>53</Position>
+    </column>
+    <index id="869" parent="280" name="PRIMARY">
+      <ColNames>ID</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <index id="870" parent="280" name="UK_ORVSDMLA56612EAEFIQ6WL5OI">
+      <ColNames>NAME</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <index id="871" parent="280" name="IDX_REALM_MASTER_ADM_CLI">
+      <ColNames>MASTER_ADMIN_CLIENT</ColNames>
+      <Type>btree</Type>
+    </index>
+    <key id="872" parent="280" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
+    <key id="873" parent="280" name="UK_ORVSDMLA56612EAEFIQ6WL5OI">
+      <UnderlyingIndexName>UK_ORVSDMLA56612EAEFIQ6WL5OI</UnderlyingIndexName>
+    </key>
+    <column id="874" parent="281" name="NAME">
+      <DasType>varchar(255)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="875" parent="281" name="REALM_ID">
+      <DasType>varchar(36)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>2</Position>
+    </column>
+    <column id="876" parent="281" name="VALUE">
+      <DasType>longtext|0s</DasType>
+      <Position>3</Position>
+      <CollationName>utf8_general_ci</CollationName>
+    </column>
+    <foreign-key id="877" parent="281" name="FK_8SHXD6L3E9ATQUKACXGPFFPTW">
+      <ColNames>REALM_ID</ColNames>
+      <RefColNames>ID</RefColNames>
+      <RefTableName>REALM</RefTableName>
+    </foreign-key>
+    <index id="878" parent="281" name="PRIMARY">
+      <ColNames>NAME
+REALM_ID</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <index id="879" parent="281" name="IDX_REALM_ATTR_REALM">
+      <ColNames>REALM_ID</ColNames>
+      <Type>btree</Type>
+    </index>
+    <key id="880" parent="281" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
+    <column id="881" parent="282" name="REALM_ID">
+      <DasType>varchar(36)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="882" parent="282" name="GROUP_ID">
+      <DasType>varchar(36)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>2</Position>
+    </column>
+    <foreign-key id="883" parent="282" name="FK_DEF_GROUPS_REALM">
+      <ColNames>REALM_ID</ColNames>
+      <RefColNames>ID</RefColNames>
+      <RefTableName>REALM</RefTableName>
+    </foreign-key>
+    <index id="884" parent="282" name="PRIMARY">
+      <ColNames>REALM_ID
+GROUP_ID</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <index id="885" parent="282" name="CON_GROUP_ID_DEF_GROUPS">
+      <ColNames>GROUP_ID</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <index id="886" parent="282" name="IDX_REALM_DEF_GRP_REALM">
+      <ColNames>REALM_ID</ColNames>
+      <Type>btree</Type>
+    </index>
+    <key id="887" parent="282" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
+    <key id="888" parent="282" name="CON_GROUP_ID_DEF_GROUPS">
+      <UnderlyingIndexName>CON_GROUP_ID_DEF_GROUPS</UnderlyingIndexName>
+    </key>
+    <column id="889" parent="283" name="REALM_ID">
+      <DasType>varchar(36)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="890" parent="283" name="VALUE">
+      <DasType>varchar(255)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>2</Position>
+    </column>
+    <foreign-key id="891" parent="283" name="FK_H846O4H0W8EPX5NWEDRF5Y69J">
+      <ColNames>REALM_ID</ColNames>
+      <RefColNames>ID</RefColNames>
+      <RefTableName>REALM</RefTableName>
+    </foreign-key>
+    <index id="892" parent="283" name="PRIMARY">
+      <ColNames>REALM_ID
+VALUE</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <index id="893" parent="283" name="IDX_REALM_EVT_TYPES_REALM">
+      <ColNames>REALM_ID</ColNames>
+      <Type>btree</Type>
+    </index>
+    <key id="894" parent="283" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
+    <column id="895" parent="284" name="REALM_ID">
+      <DasType>varchar(36)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="896" parent="284" name="VALUE">
+      <DasType>varchar(255)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>2</Position>
+    </column>
+    <foreign-key id="897" parent="284" name="FK_H846O4H0W8EPX5NXEV9F5Y69J">
+      <ColNames>REALM_ID</ColNames>
+      <RefColNames>ID</RefColNames>
+      <RefTableName>REALM</RefTableName>
+    </foreign-key>
+    <index id="898" parent="284" name="PRIMARY">
+      <ColNames>REALM_ID
+VALUE</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <index id="899" parent="284" name="IDX_REALM_EVT_LIST_REALM">
+      <ColNames>REALM_ID</ColNames>
+      <Type>btree</Type>
+    </index>
+    <key id="900" parent="284" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
+    <column id="901" parent="285" name="REALM_ID">
+      <DasType>varchar(255)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="902" parent="285" name="LOCALE">
+      <DasType>varchar(255)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>2</Position>
+    </column>
+    <column id="903" parent="285" name="TEXTS">
+      <DasType>longtext|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>3</Position>
+      <CollationName>utf8_general_ci</CollationName>
+    </column>
+    <index id="904" parent="285" name="PRIMARY">
+      <ColNames>REALM_ID
+LOCALE</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <key id="905" parent="285" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
+    <column id="906" parent="286" name="TYPE">
+      <DasType>varchar(255)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="907" parent="286" name="FORM_LABEL">
+      <DasType>varchar(255)|0s</DasType>
+      <Position>2</Position>
+    </column>
+    <column id="908" parent="286" name="INPUT">
+      <DasType>bit(1)|0s</DasType>
+      <DefaultExpression>b&apos;0&apos;</DefaultExpression>
+      <NotNull>1</NotNull>
+      <Position>3</Position>
+    </column>
+    <column id="909" parent="286" name="SECRET">
+      <DasType>bit(1)|0s</DasType>
+      <DefaultExpression>b&apos;0&apos;</DefaultExpression>
+      <NotNull>1</NotNull>
+      <Position>4</Position>
+    </column>
+    <column id="910" parent="286" name="REALM_ID">
+      <DasType>varchar(36)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>5</Position>
+    </column>
+    <foreign-key id="911" parent="286" name="FK_5HG65LYBEVAVKQFKI3KPONH9V">
+      <ColNames>REALM_ID</ColNames>
+      <RefColNames>ID</RefColNames>
+      <RefTableName>REALM</RefTableName>
+    </foreign-key>
+    <index id="912" parent="286" name="PRIMARY">
+      <ColNames>REALM_ID
+TYPE</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <key id="913" parent="286" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
+    <column id="914" parent="287" name="REALM_ID">
+      <DasType>varchar(36)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="915" parent="287" name="VALUE">
+      <DasType>varchar(255)|0s</DasType>
+      <Position>2</Position>
+    </column>
+    <column id="916" parent="287" name="NAME">
+      <DasType>varchar(255)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>3</Position>
+    </column>
+    <foreign-key id="917" parent="287" name="FK_70EJ8XDXGXD0B9HH6180IRR0O">
+      <ColNames>REALM_ID</ColNames>
+      <RefColNames>ID</RefColNames>
+      <RefTableName>REALM</RefTableName>
+    </foreign-key>
+    <index id="918" parent="287" name="PRIMARY">
+      <ColNames>REALM_ID
+NAME</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <key id="919" parent="287" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
+    <column id="920" parent="288" name="REALM_ID">
+      <DasType>varchar(36)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="921" parent="288" name="VALUE">
+      <DasType>varchar(255)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>2</Position>
+    </column>
+    <foreign-key id="922" parent="288" name="FK_SUPPORTED_LOCALES_REALM">
+      <ColNames>REALM_ID</ColNames>
+      <RefColNames>ID</RefColNames>
+      <RefTableName>REALM</RefTableName>
+    </foreign-key>
+    <index id="923" parent="288" name="PRIMARY">
+      <ColNames>REALM_ID
+VALUE</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <index id="924" parent="288" name="IDX_REALM_SUPP_LOCAL_REALM">
+      <ColNames>REALM_ID</ColNames>
+      <Type>btree</Type>
+    </index>
+    <key id="925" parent="288" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
+    <column id="926" parent="289" name="CLIENT_ID">
+      <DasType>varchar(36)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="927" parent="289" name="VALUE">
+      <DasType>varchar(255)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>2</Position>
+    </column>
+    <foreign-key id="928" parent="289" name="FK_1BURS8PB4OUJ97H5WUPPAHV9F">
+      <ColNames>CLIENT_ID</ColNames>
+      <RefColNames>ID</RefColNames>
+      <RefTableName>CLIENT</RefTableName>
+    </foreign-key>
+    <index id="929" parent="289" name="PRIMARY">
+      <ColNames>CLIENT_ID
+VALUE</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <index id="930" parent="289" name="IDX_REDIR_URI_CLIENT">
+      <ColNames>CLIENT_ID</ColNames>
+      <Type>btree</Type>
+    </index>
+    <key id="931" parent="289" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
+    <column id="932" parent="290" name="REQUIRED_ACTION_ID">
+      <DasType>varchar(36)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="933" parent="290" name="VALUE">
+      <DasType>longtext|0s</DasType>
+      <Position>2</Position>
+    </column>
+    <column id="934" parent="290" name="NAME">
+      <DasType>varchar(255)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>3</Position>
+    </column>
+    <index id="935" parent="290" name="PRIMARY">
+      <ColNames>REQUIRED_ACTION_ID
+NAME</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <key id="936" parent="290" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
+    <column id="937" parent="291" name="ID">
+      <DasType>varchar(36)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="938" parent="291" name="ALIAS">
+      <DasType>varchar(255)|0s</DasType>
+      <Position>2</Position>
+    </column>
+    <column id="939" parent="291" name="NAME">
+      <DasType>varchar(255)|0s</DasType>
+      <Position>3</Position>
+    </column>
+    <column id="940" parent="291" name="REALM_ID">
+      <DasType>varchar(36)|0s</DasType>
+      <Position>4</Position>
+    </column>
+    <column id="941" parent="291" name="ENABLED">
+      <DasType>bit(1)|0s</DasType>
+      <DefaultExpression>b&apos;0&apos;</DefaultExpression>
+      <NotNull>1</NotNull>
+      <Position>5</Position>
+    </column>
+    <column id="942" parent="291" name="DEFAULT_ACTION">
+      <DasType>bit(1)|0s</DasType>
+      <DefaultExpression>b&apos;0&apos;</DefaultExpression>
+      <NotNull>1</NotNull>
+      <Position>6</Position>
+    </column>
+    <column id="943" parent="291" name="PROVIDER_ID">
+      <DasType>varchar(255)|0s</DasType>
+      <Position>7</Position>
+    </column>
+    <column id="944" parent="291" name="PRIORITY">
+      <DasType>int(11)|0s</DasType>
+      <Position>8</Position>
+    </column>
+    <foreign-key id="945" parent="291" name="FK_REQ_ACT_REALM">
+      <ColNames>REALM_ID</ColNames>
+      <RefColNames>ID</RefColNames>
+      <RefTableName>REALM</RefTableName>
+    </foreign-key>
+    <index id="946" parent="291" name="PRIMARY">
+      <ColNames>ID</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <index id="947" parent="291" name="IDX_REQ_ACT_PROV_REALM">
+      <ColNames>REALM_ID</ColNames>
+      <Type>btree</Type>
+    </index>
+    <key id="948" parent="291" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
+    <column id="949" parent="292" name="ID">
+      <DasType>varchar(36)|0s</DasType>
+      <DefaultExpression>&apos;sybase-needs-something-here&apos;</DefaultExpression>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="950" parent="292" name="NAME">
+      <DasType>varchar(255)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>2</Position>
+    </column>
+    <column id="951" parent="292" name="VALUE">
+      <DasType>varchar(255)|0s</DasType>
+      <Position>3</Position>
+    </column>
+    <column id="952" parent="292" name="RESOURCE_ID">
+      <DasType>varchar(36)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>4</Position>
+    </column>
+    <foreign-key id="953" parent="292" name="FK_5HRM2VLF9QL5FU022KQEPOVBR">
+      <ColNames>RESOURCE_ID</ColNames>
+      <RefColNames>ID</RefColNames>
+      <RefTableName>RESOURCE_SERVER_RESOURCE</RefTableName>
+    </foreign-key>
+    <index id="954" parent="292" name="PRIMARY">
+      <ColNames>ID</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <index id="955" parent="292" name="FK_5HRM2VLF9QL5FU022KQEPOVBR">
+      <ColNames>RESOURCE_ID</ColNames>
+      <Type>btree</Type>
+    </index>
+    <key id="956" parent="292" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
+    <column id="957" parent="293" name="RESOURCE_ID">
+      <DasType>varchar(36)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="958" parent="293" name="POLICY_ID">
+      <DasType>varchar(36)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>2</Position>
+    </column>
+    <foreign-key id="959" parent="293" name="FK_FRSRPOS53XCX4WNKOG82SSRFY">
+      <ColNames>RESOURCE_ID</ColNames>
+      <RefColNames>ID</RefColNames>
+      <RefTableName>RESOURCE_SERVER_RESOURCE</RefTableName>
+    </foreign-key>
+    <foreign-key id="960" parent="293" name="FK_FRSRPP213XCX4WNKOG82SSRFY">
+      <ColNames>POLICY_ID</ColNames>
+      <RefColNames>ID</RefColNames>
+      <RefTableName>RESOURCE_SERVER_POLICY</RefTableName>
+    </foreign-key>
+    <index id="961" parent="293" name="PRIMARY">
+      <ColNames>RESOURCE_ID
+POLICY_ID</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <index id="962" parent="293" name="IDX_RES_POLICY_POLICY">
+      <ColNames>POLICY_ID</ColNames>
+      <Type>btree</Type>
+    </index>
+    <key id="963" parent="293" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
+    <column id="964" parent="294" name="RESOURCE_ID">
+      <DasType>varchar(36)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="965" parent="294" name="SCOPE_ID">
+      <DasType>varchar(36)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>2</Position>
+    </column>
+    <foreign-key id="966" parent="294" name="FK_FRSRPOS13XCX4WNKOG82SSRFY">
+      <ColNames>RESOURCE_ID</ColNames>
+      <RefColNames>ID</RefColNames>
+      <RefTableName>RESOURCE_SERVER_RESOURCE</RefTableName>
+    </foreign-key>
+    <foreign-key id="967" parent="294" name="FK_FRSRPS213XCX4WNKOG82SSRFY">
+      <ColNames>SCOPE_ID</ColNames>
+      <RefColNames>ID</RefColNames>
+      <RefTableName>RESOURCE_SERVER_SCOPE</RefTableName>
+    </foreign-key>
+    <index id="968" parent="294" name="PRIMARY">
+      <ColNames>RESOURCE_ID
+SCOPE_ID</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <index id="969" parent="294" name="IDX_RES_SCOPE_SCOPE">
+      <ColNames>SCOPE_ID</ColNames>
+      <Type>btree</Type>
+    </index>
+    <key id="970" parent="294" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
+    <column id="971" parent="295" name="ID">
+      <DasType>varchar(36)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="972" parent="295" name="ALLOW_RS_REMOTE_MGMT">
+      <DasType>bit(1)|0s</DasType>
+      <DefaultExpression>b&apos;0&apos;</DefaultExpression>
+      <NotNull>1</NotNull>
+      <Position>2</Position>
+    </column>
+    <column id="973" parent="295" name="POLICY_ENFORCE_MODE">
+      <DasType>varchar(15)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>3</Position>
+    </column>
+    <column id="974" parent="295" name="DECISION_STRATEGY">
+      <DasType>tinyint(4)|0s</DasType>
+      <DefaultExpression>1</DefaultExpression>
+      <NotNull>1</NotNull>
+      <Position>4</Position>
+    </column>
+    <index id="975" parent="295" name="PRIMARY">
+      <ColNames>ID</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <key id="976" parent="295" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
+    <column id="977" parent="296" name="ID">
+      <DasType>varchar(36)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="978" parent="296" name="OWNER">
+      <DasType>varchar(255)|0s</DasType>
+      <Position>2</Position>
+    </column>
+    <column id="979" parent="296" name="REQUESTER">
+      <DasType>varchar(255)|0s</DasType>
+      <Position>3</Position>
+    </column>
+    <column id="980" parent="296" name="CREATED_TIMESTAMP">
+      <DasType>bigint(20)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>4</Position>
+    </column>
+    <column id="981" parent="296" name="GRANTED_TIMESTAMP">
+      <DasType>bigint(20)|0s</DasType>
+      <Position>5</Position>
+    </column>
+    <column id="982" parent="296" name="RESOURCE_ID">
+      <DasType>varchar(36)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>6</Position>
+    </column>
+    <column id="983" parent="296" name="SCOPE_ID">
+      <DasType>varchar(36)|0s</DasType>
+      <Position>7</Position>
+    </column>
+    <column id="984" parent="296" name="RESOURCE_SERVER_ID">
+      <DasType>varchar(36)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>8</Position>
+    </column>
+    <column id="985" parent="296" name="POLICY_ID">
+      <DasType>varchar(36)|0s</DasType>
+      <Position>9</Position>
+    </column>
+    <foreign-key id="986" parent="296" name="FK_FRSRHO213XCX4WNKOG83SSPMT">
+      <ColNames>RESOURCE_ID</ColNames>
+      <RefColNames>ID</RefColNames>
+      <RefTableName>RESOURCE_SERVER_RESOURCE</RefTableName>
+    </foreign-key>
+    <foreign-key id="987" parent="296" name="FK_FRSRHO213XCX4WNKOG84SSPMT">
+      <ColNames>SCOPE_ID</ColNames>
+      <RefColNames>ID</RefColNames>
+      <RefTableName>RESOURCE_SERVER_SCOPE</RefTableName>
+    </foreign-key>
+    <foreign-key id="988" parent="296" name="FK_FRSRHO213XCX4WNKOG82SSPMT">
+      <ColNames>RESOURCE_SERVER_ID</ColNames>
+      <RefColNames>ID</RefColNames>
+      <RefTableName>RESOURCE_SERVER</RefTableName>
+    </foreign-key>
+    <foreign-key id="989" parent="296" name="FK_FRSRPO2128CX4WNKOG82SSRFY">
+      <ColNames>POLICY_ID</ColNames>
+      <RefColNames>ID</RefColNames>
+      <RefTableName>RESOURCE_SERVER_POLICY</RefTableName>
+    </foreign-key>
+    <index id="990" parent="296" name="PRIMARY">
+      <ColNames>ID</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <index id="991" parent="296" name="UK_FRSR6T700S9V50BU18WS5PMT">
+      <ColNames>OWNER
+REQUESTER
+RESOURCE_SERVER_ID
+RESOURCE_ID
+SCOPE_ID</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <index id="992" parent="296" name="FK_FRSRHO213XCX4WNKOG83SSPMT">
+      <ColNames>RESOURCE_ID</ColNames>
+      <Type>btree</Type>
+    </index>
+    <index id="993" parent="296" name="FK_FRSRHO213XCX4WNKOG84SSPMT">
+      <ColNames>SCOPE_ID</ColNames>
+      <Type>btree</Type>
+    </index>
+    <index id="994" parent="296" name="FK_FRSRHO213XCX4WNKOG82SSPMT">
+      <ColNames>RESOURCE_SERVER_ID</ColNames>
+      <Type>btree</Type>
+    </index>
+    <index id="995" parent="296" name="FK_FRSRPO2128CX4WNKOG82SSRFY">
+      <ColNames>POLICY_ID</ColNames>
+      <Type>btree</Type>
+    </index>
+    <key id="996" parent="296" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
+    <key id="997" parent="296" name="UK_FRSR6T700S9V50BU18WS5PMT">
+      <UnderlyingIndexName>UK_FRSR6T700S9V50BU18WS5PMT</UnderlyingIndexName>
+    </key>
+    <column id="998" parent="297" name="ID">
+      <DasType>varchar(36)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="999" parent="297" name="NAME">
+      <DasType>varchar(255)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>2</Position>
+    </column>
+    <column id="1000" parent="297" name="DESCRIPTION">
+      <DasType>varchar(255)|0s</DasType>
+      <Position>3</Position>
+      <CollationName>utf8_general_ci</CollationName>
+    </column>
+    <column id="1001" parent="297" name="TYPE">
+      <DasType>varchar(255)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>4</Position>
+    </column>
+    <column id="1002" parent="297" name="DECISION_STRATEGY">
+      <DasType>varchar(20)|0s</DasType>
+      <Position>5</Position>
+    </column>
+    <column id="1003" parent="297" name="LOGIC">
+      <DasType>varchar(20)|0s</DasType>
+      <Position>6</Position>
+    </column>
+    <column id="1004" parent="297" name="RESOURCE_SERVER_ID">
+      <DasType>varchar(36)|0s</DasType>
+      <Position>7</Position>
+    </column>
+    <column id="1005" parent="297" name="OWNER">
+      <DasType>varchar(255)|0s</DasType>
+      <Position>8</Position>
+    </column>
+    <foreign-key id="1006" parent="297" name="FK_FRSRPO213XCX4WNKOG82SSRFY">
+      <ColNames>RESOURCE_SERVER_ID</ColNames>
+      <RefColNames>ID</RefColNames>
+      <RefTableName>RESOURCE_SERVER</RefTableName>
+    </foreign-key>
+    <index id="1007" parent="297" name="PRIMARY">
+      <ColNames>ID</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <index id="1008" parent="297" name="UK_FRSRPT700S9V50BU18WS5HA6">
+      <ColNames>NAME
+RESOURCE_SERVER_ID</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <index id="1009" parent="297" name="IDX_RES_SERV_POL_RES_SERV">
+      <ColNames>RESOURCE_SERVER_ID</ColNames>
+      <Type>btree</Type>
+    </index>
+    <key id="1010" parent="297" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
+    <key id="1011" parent="297" name="UK_FRSRPT700S9V50BU18WS5HA6">
+      <UnderlyingIndexName>UK_FRSRPT700S9V50BU18WS5HA6</UnderlyingIndexName>
+    </key>
+    <column id="1012" parent="298" name="ID">
+      <DasType>varchar(36)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="1013" parent="298" name="NAME">
+      <DasType>varchar(255)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>2</Position>
+    </column>
+    <column id="1014" parent="298" name="TYPE">
+      <DasType>varchar(255)|0s</DasType>
+      <Position>3</Position>
+    </column>
+    <column id="1015" parent="298" name="ICON_URI">
+      <DasType>varchar(255)|0s</DasType>
+      <Position>4</Position>
+    </column>
+    <column id="1016" parent="298" name="OWNER">
+      <DasType>varchar(255)|0s</DasType>
+      <Position>5</Position>
+    </column>
+    <column id="1017" parent="298" name="RESOURCE_SERVER_ID">
+      <DasType>varchar(36)|0s</DasType>
+      <Position>6</Position>
+    </column>
+    <column id="1018" parent="298" name="OWNER_MANAGED_ACCESS">
+      <DasType>bit(1)|0s</DasType>
+      <DefaultExpression>b&apos;0&apos;</DefaultExpression>
+      <NotNull>1</NotNull>
+      <Position>7</Position>
+    </column>
+    <column id="1019" parent="298" name="DISPLAY_NAME">
+      <DasType>varchar(255)|0s</DasType>
+      <Position>8</Position>
+    </column>
+    <foreign-key id="1020" parent="298" name="FK_FRSRHO213XCX4WNKOG82SSRFY">
+      <ColNames>RESOURCE_SERVER_ID</ColNames>
+      <RefColNames>ID</RefColNames>
+      <RefTableName>RESOURCE_SERVER</RefTableName>
+    </foreign-key>
+    <index id="1021" parent="298" name="PRIMARY">
+      <ColNames>ID</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <index id="1022" parent="298" name="UK_FRSR6T700S9V50BU18WS5HA6">
+      <ColNames>NAME
+OWNER
+RESOURCE_SERVER_ID</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <index id="1023" parent="298" name="IDX_RES_SRV_RES_RES_SRV">
+      <ColNames>RESOURCE_SERVER_ID</ColNames>
+      <Type>btree</Type>
+    </index>
+    <key id="1024" parent="298" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
+    <key id="1025" parent="298" name="UK_FRSR6T700S9V50BU18WS5HA6">
+      <UnderlyingIndexName>UK_FRSR6T700S9V50BU18WS5HA6</UnderlyingIndexName>
+    </key>
+    <column id="1026" parent="299" name="ID">
+      <DasType>varchar(36)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="1027" parent="299" name="NAME">
+      <DasType>varchar(255)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>2</Position>
+    </column>
+    <column id="1028" parent="299" name="ICON_URI">
+      <DasType>varchar(255)|0s</DasType>
+      <Position>3</Position>
+    </column>
+    <column id="1029" parent="299" name="RESOURCE_SERVER_ID">
+      <DasType>varchar(36)|0s</DasType>
+      <Position>4</Position>
+    </column>
+    <column id="1030" parent="299" name="DISPLAY_NAME">
+      <DasType>varchar(255)|0s</DasType>
+      <Position>5</Position>
+    </column>
+    <foreign-key id="1031" parent="299" name="FK_FRSRSO213XCX4WNKOG82SSRFY">
+      <ColNames>RESOURCE_SERVER_ID</ColNames>
+      <RefColNames>ID</RefColNames>
+      <RefTableName>RESOURCE_SERVER</RefTableName>
+    </foreign-key>
+    <index id="1032" parent="299" name="PRIMARY">
+      <ColNames>ID</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <index id="1033" parent="299" name="UK_FRSRST700S9V50BU18WS5HA6">
+      <ColNames>NAME
+RESOURCE_SERVER_ID</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <index id="1034" parent="299" name="IDX_RES_SRV_SCOPE_RES_SRV">
+      <ColNames>RESOURCE_SERVER_ID</ColNames>
+      <Type>btree</Type>
+    </index>
+    <key id="1035" parent="299" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
+    <key id="1036" parent="299" name="UK_FRSRST700S9V50BU18WS5HA6">
+      <UnderlyingIndexName>UK_FRSRST700S9V50BU18WS5HA6</UnderlyingIndexName>
+    </key>
+    <column id="1037" parent="300" name="RESOURCE_ID">
+      <DasType>varchar(36)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="1038" parent="300" name="VALUE">
+      <DasType>varchar(255)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>2</Position>
+    </column>
+    <foreign-key id="1039" parent="300" name="FK_RESOURCE_SERVER_URIS">
+      <ColNames>RESOURCE_ID</ColNames>
+      <RefColNames>ID</RefColNames>
+      <RefTableName>RESOURCE_SERVER_RESOURCE</RefTableName>
+    </foreign-key>
+    <index id="1040" parent="300" name="PRIMARY">
+      <ColNames>RESOURCE_ID
+VALUE</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <key id="1041" parent="300" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
+    <column id="1042" parent="301" name="ID">
+      <DasType>varchar(36)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="1043" parent="301" name="ROLE_ID">
+      <DasType>varchar(36)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>2</Position>
+    </column>
+    <column id="1044" parent="301" name="NAME">
+      <DasType>varchar(255)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>3</Position>
+    </column>
+    <column id="1045" parent="301" name="VALUE">
+      <DasType>varchar(255)|0s</DasType>
+      <Position>4</Position>
+      <CollationName>utf8_general_ci</CollationName>
+    </column>
+    <foreign-key id="1046" parent="301" name="FK_ROLE_ATTRIBUTE_ID">
+      <ColNames>ROLE_ID</ColNames>
+      <RefColNames>ID</RefColNames>
+      <RefTableName>KEYCLOAK_ROLE</RefTableName>
+    </foreign-key>
+    <index id="1047" parent="301" name="PRIMARY">
+      <ColNames>ID</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <index id="1048" parent="301" name="IDX_ROLE_ATTRIBUTE">
+      <ColNames>ROLE_ID</ColNames>
+      <Type>btree</Type>
+    </index>
+    <key id="1049" parent="301" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
+    <column id="1050" parent="302" name="CLIENT_ID">
+      <DasType>varchar(36)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="1051" parent="302" name="ROLE_ID">
+      <DasType>varchar(36)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>2</Position>
+    </column>
+    <foreign-key id="1052" parent="302" name="FK_OUSE064PLMLR732LXJCN1Q5F1">
+      <ColNames>CLIENT_ID</ColNames>
+      <RefColNames>ID</RefColNames>
+      <RefTableName>CLIENT</RefTableName>
+    </foreign-key>
+    <index id="1053" parent="302" name="PRIMARY">
+      <ColNames>CLIENT_ID
+ROLE_ID</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <index id="1054" parent="302" name="IDX_SCOPE_MAPPING_ROLE">
+      <ColNames>ROLE_ID</ColNames>
+      <Type>btree</Type>
+    </index>
+    <key id="1055" parent="302" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
+    <column id="1056" parent="303" name="SCOPE_ID">
+      <DasType>varchar(36)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="1057" parent="303" name="POLICY_ID">
+      <DasType>varchar(36)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>2</Position>
+    </column>
+    <foreign-key id="1058" parent="303" name="FK_FRSRPASS3XCX4WNKOG82SSRFY">
+      <ColNames>SCOPE_ID</ColNames>
+      <RefColNames>ID</RefColNames>
+      <RefTableName>RESOURCE_SERVER_SCOPE</RefTableName>
+    </foreign-key>
+    <foreign-key id="1059" parent="303" name="FK_FRSRASP13XCX4WNKOG82SSRFY">
+      <ColNames>POLICY_ID</ColNames>
+      <RefColNames>ID</RefColNames>
+      <RefTableName>RESOURCE_SERVER_POLICY</RefTableName>
+    </foreign-key>
+    <index id="1060" parent="303" name="PRIMARY">
+      <ColNames>SCOPE_ID
+POLICY_ID</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <index id="1061" parent="303" name="IDX_SCOPE_POLICY_POLICY">
+      <ColNames>POLICY_ID</ColNames>
+      <Type>btree</Type>
+    </index>
+    <key id="1062" parent="303" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
+    <column id="1063" parent="304" name="REALM_ID">
+      <DasType>varchar(36)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="1064" parent="304" name="USERNAME">
+      <DasType>varchar(255)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>2</Position>
+      <CollationName>utf8_general_ci</CollationName>
+    </column>
+    <column id="1065" parent="304" name="FAILED_LOGIN_NOT_BEFORE">
+      <DasType>int(11)|0s</DasType>
+      <Position>3</Position>
+    </column>
+    <column id="1066" parent="304" name="LAST_FAILURE">
+      <DasType>bigint(20)|0s</DasType>
+      <Position>4</Position>
+    </column>
+    <column id="1067" parent="304" name="LAST_IP_FAILURE">
+      <DasType>varchar(255)|0s</DasType>
+      <Position>5</Position>
+    </column>
+    <column id="1068" parent="304" name="NUM_FAILURES">
+      <DasType>int(11)|0s</DasType>
+      <Position>6</Position>
+    </column>
+    <index id="1069" parent="304" name="PRIMARY">
+      <ColNames>REALM_ID
+USERNAME</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <key id="1070" parent="304" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
+    <column id="1071" parent="305" name="NAME">
+      <DasType>varchar(255)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="1072" parent="305" name="VALUE">
+      <DasType>varchar(255)|0s</DasType>
+      <Position>2</Position>
+      <CollationName>utf8_general_ci</CollationName>
+    </column>
+    <column id="1073" parent="305" name="USER_ID">
+      <DasType>varchar(36)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>3</Position>
+    </column>
+    <column id="1074" parent="305" name="ID">
+      <DasType>varchar(36)|0s</DasType>
+      <DefaultExpression>&apos;sybase-needs-something-here&apos;</DefaultExpression>
+      <NotNull>1</NotNull>
+      <Position>4</Position>
+    </column>
+    <foreign-key id="1075" parent="305" name="FK_5HRM2VLF9QL5FU043KQEPOVBR">
+      <ColNames>USER_ID</ColNames>
+      <RefColNames>ID</RefColNames>
+      <RefTableName>USER_ENTITY</RefTableName>
+    </foreign-key>
+    <index id="1076" parent="305" name="PRIMARY">
+      <ColNames>ID</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <index id="1077" parent="305" name="IDX_USER_ATTRIBUTE_NAME">
+      <ColNames>NAME
+VALUE</ColNames>
+      <Type>btree</Type>
+    </index>
+    <index id="1078" parent="305" name="IDX_USER_ATTRIBUTE">
+      <ColNames>USER_ID</ColNames>
+      <Type>btree</Type>
+    </index>
+    <key id="1079" parent="305" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
+    <column id="1080" parent="306" name="ID">
+      <DasType>varchar(36)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="1081" parent="306" name="CLIENT_ID">
+      <DasType>varchar(255)|0s</DasType>
+      <Position>2</Position>
+    </column>
+    <column id="1082" parent="306" name="USER_ID">
+      <DasType>varchar(36)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>3</Position>
+    </column>
+    <column id="1083" parent="306" name="CREATED_DATE">
+      <DasType>bigint(20)|0s</DasType>
+      <Position>4</Position>
+    </column>
+    <column id="1084" parent="306" name="LAST_UPDATED_DATE">
+      <DasType>bigint(20)|0s</DasType>
+      <Position>5</Position>
+    </column>
+    <column id="1085" parent="306" name="CLIENT_STORAGE_PROVIDER">
+      <DasType>varchar(36)|0s</DasType>
+      <Position>6</Position>
+    </column>
+    <column id="1086" parent="306" name="EXTERNAL_CLIENT_ID">
+      <DasType>varchar(255)|0s</DasType>
+      <Position>7</Position>
+    </column>
+    <foreign-key id="1087" parent="306" name="FK_GRNTCSNT_USER">
+      <ColNames>USER_ID</ColNames>
+      <RefColNames>ID</RefColNames>
+      <RefTableName>USER_ENTITY</RefTableName>
+    </foreign-key>
+    <index id="1088" parent="306" name="PRIMARY">
+      <ColNames>ID</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <index id="1089" parent="306" name="UK_JKUWUVD56ONTGSUHOGM8UEWRT">
+      <ColNames>CLIENT_ID
+CLIENT_STORAGE_PROVIDER
+EXTERNAL_CLIENT_ID
+USER_ID</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <index id="1090" parent="306" name="IDX_USER_CONSENT">
+      <ColNames>USER_ID</ColNames>
+      <Type>btree</Type>
+    </index>
+    <key id="1091" parent="306" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
+    <key id="1092" parent="306" name="UK_JKUWUVD56ONTGSUHOGM8UEWRT">
+      <UnderlyingIndexName>UK_JKUWUVD56ONTGSUHOGM8UEWRT</UnderlyingIndexName>
+    </key>
+    <column id="1093" parent="307" name="USER_CONSENT_ID">
+      <DasType>varchar(36)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="1094" parent="307" name="SCOPE_ID">
+      <DasType>varchar(36)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>2</Position>
+    </column>
+    <foreign-key id="1095" parent="307" name="FK_GRNTCSNT_CLSC_USC">
+      <ColNames>USER_CONSENT_ID</ColNames>
+      <RefColNames>ID</RefColNames>
+      <RefTableName>USER_CONSENT</RefTableName>
+    </foreign-key>
+    <index id="1096" parent="307" name="PRIMARY">
+      <ColNames>USER_CONSENT_ID
+SCOPE_ID</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <index id="1097" parent="307" name="IDX_USCONSENT_CLSCOPE">
+      <ColNames>USER_CONSENT_ID</ColNames>
+      <Type>btree</Type>
+    </index>
+    <key id="1098" parent="307" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
+    <column id="1099" parent="308" name="ID">
+      <DasType>varchar(36)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="1100" parent="308" name="EMAIL">
+      <DasType>varchar(255)|0s</DasType>
+      <Position>2</Position>
+    </column>
+    <column id="1101" parent="308" name="EMAIL_CONSTRAINT">
+      <DasType>varchar(255)|0s</DasType>
+      <Position>3</Position>
+    </column>
+    <column id="1102" parent="308" name="EMAIL_VERIFIED">
+      <DasType>bit(1)|0s</DasType>
+      <DefaultExpression>b&apos;0&apos;</DefaultExpression>
+      <NotNull>1</NotNull>
+      <Position>4</Position>
+    </column>
+    <column id="1103" parent="308" name="ENABLED">
+      <DasType>bit(1)|0s</DasType>
+      <DefaultExpression>b&apos;0&apos;</DefaultExpression>
+      <NotNull>1</NotNull>
+      <Position>5</Position>
+    </column>
+    <column id="1104" parent="308" name="FEDERATION_LINK">
+      <DasType>varchar(255)|0s</DasType>
+      <Position>6</Position>
+    </column>
+    <column id="1105" parent="308" name="FIRST_NAME">
+      <DasType>varchar(255)|0s</DasType>
+      <Position>7</Position>
+      <CollationName>utf8_general_ci</CollationName>
+    </column>
+    <column id="1106" parent="308" name="LAST_NAME">
+      <DasType>varchar(255)|0s</DasType>
+      <Position>8</Position>
+      <CollationName>utf8_general_ci</CollationName>
+    </column>
+    <column id="1107" parent="308" name="REALM_ID">
+      <DasType>varchar(255)|0s</DasType>
+      <Position>9</Position>
+    </column>
+    <column id="1108" parent="308" name="USERNAME">
+      <DasType>varchar(255)|0s</DasType>
+      <Position>10</Position>
+      <CollationName>utf8_general_ci</CollationName>
+    </column>
+    <column id="1109" parent="308" name="CREATED_TIMESTAMP">
+      <DasType>bigint(20)|0s</DasType>
+      <Position>11</Position>
+    </column>
+    <column id="1110" parent="308" name="SERVICE_ACCOUNT_CLIENT_LINK">
+      <DasType>varchar(255)|0s</DasType>
+      <Position>12</Position>
+    </column>
+    <column id="1111" parent="308" name="NOT_BEFORE">
+      <DasType>int(11)|0s</DasType>
+      <DefaultExpression>0</DefaultExpression>
+      <NotNull>1</NotNull>
+      <Position>13</Position>
+    </column>
+    <index id="1112" parent="308" name="PRIMARY">
+      <ColNames>ID</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <index id="1113" parent="308" name="UK_DYKN684SL8UP1CRFEI6ECKHD7">
+      <ColNames>REALM_ID
+EMAIL_CONSTRAINT</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <index id="1114" parent="308" name="UK_RU8TT6T700S9V50BU18WS5HA6">
+      <ColNames>REALM_ID
+USERNAME</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <index id="1115" parent="308" name="IDX_USER_EMAIL">
+      <ColNames>EMAIL</ColNames>
+      <Type>btree</Type>
+    </index>
+    <index id="1116" parent="308" name="IDX_USER_SERVICE_ACCOUNT">
+      <ColNames>REALM_ID
+SERVICE_ACCOUNT_CLIENT_LINK</ColNames>
+      <Type>btree</Type>
+    </index>
+    <key id="1117" parent="308" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
+    <key id="1118" parent="308" name="UK_DYKN684SL8UP1CRFEI6ECKHD7">
+      <UnderlyingIndexName>UK_DYKN684SL8UP1CRFEI6ECKHD7</UnderlyingIndexName>
+    </key>
+    <key id="1119" parent="308" name="UK_RU8TT6T700S9V50BU18WS5HA6">
+      <UnderlyingIndexName>UK_RU8TT6T700S9V50BU18WS5HA6</UnderlyingIndexName>
+    </key>
+    <column id="1120" parent="309" name="USER_FEDERATION_PROVIDER_ID">
+      <DasType>varchar(36)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="1121" parent="309" name="VALUE">
+      <DasType>varchar(255)|0s</DasType>
+      <Position>2</Position>
+    </column>
+    <column id="1122" parent="309" name="NAME">
+      <DasType>varchar(255)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>3</Position>
+    </column>
+    <foreign-key id="1123" parent="309" name="FK_T13HPU1J94R2EBPEKR39X5EU5">
+      <ColNames>USER_FEDERATION_PROVIDER_ID</ColNames>
+      <RefColNames>ID</RefColNames>
+      <RefTableName>USER_FEDERATION_PROVIDER</RefTableName>
+    </foreign-key>
+    <index id="1124" parent="309" name="PRIMARY">
+      <ColNames>USER_FEDERATION_PROVIDER_ID
+NAME</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <key id="1125" parent="309" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
+    <column id="1126" parent="310" name="ID">
+      <DasType>varchar(36)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="1127" parent="310" name="NAME">
+      <DasType>varchar(255)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>2</Position>
+    </column>
+    <column id="1128" parent="310" name="FEDERATION_PROVIDER_ID">
+      <DasType>varchar(36)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>3</Position>
+    </column>
+    <column id="1129" parent="310" name="FEDERATION_MAPPER_TYPE">
+      <DasType>varchar(255)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>4</Position>
+    </column>
+    <column id="1130" parent="310" name="REALM_ID">
+      <DasType>varchar(36)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>5</Position>
+    </column>
+    <foreign-key id="1131" parent="310" name="FK_FEDMAPPERPM_FEDPRV">
+      <ColNames>FEDERATION_PROVIDER_ID</ColNames>
+      <RefColNames>ID</RefColNames>
+      <RefTableName>USER_FEDERATION_PROVIDER</RefTableName>
+    </foreign-key>
+    <foreign-key id="1132" parent="310" name="FK_FEDMAPPERPM_REALM">
+      <ColNames>REALM_ID</ColNames>
+      <RefColNames>ID</RefColNames>
+      <RefTableName>REALM</RefTableName>
+    </foreign-key>
+    <index id="1133" parent="310" name="PRIMARY">
+      <ColNames>ID</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <index id="1134" parent="310" name="IDX_USR_FED_MAP_FED_PRV">
+      <ColNames>FEDERATION_PROVIDER_ID</ColNames>
+      <Type>btree</Type>
+    </index>
+    <index id="1135" parent="310" name="IDX_USR_FED_MAP_REALM">
+      <ColNames>REALM_ID</ColNames>
+      <Type>btree</Type>
+    </index>
+    <key id="1136" parent="310" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
+    <column id="1137" parent="311" name="USER_FEDERATION_MAPPER_ID">
+      <DasType>varchar(36)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="1138" parent="311" name="VALUE">
+      <DasType>varchar(255)|0s</DasType>
+      <Position>2</Position>
+    </column>
+    <column id="1139" parent="311" name="NAME">
+      <DasType>varchar(255)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>3</Position>
+    </column>
+    <foreign-key id="1140" parent="311" name="FK_FEDMAPPER_CFG">
+      <ColNames>USER_FEDERATION_MAPPER_ID</ColNames>
+      <RefColNames>ID</RefColNames>
+      <RefTableName>USER_FEDERATION_MAPPER</RefTableName>
+    </foreign-key>
+    <index id="1141" parent="311" name="PRIMARY">
+      <ColNames>USER_FEDERATION_MAPPER_ID
+NAME</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <key id="1142" parent="311" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
+    <column id="1143" parent="312" name="ID">
+      <DasType>varchar(36)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="1144" parent="312" name="CHANGED_SYNC_PERIOD">
+      <DasType>int(11)|0s</DasType>
+      <Position>2</Position>
+    </column>
+    <column id="1145" parent="312" name="DISPLAY_NAME">
+      <DasType>varchar(255)|0s</DasType>
+      <Position>3</Position>
+    </column>
+    <column id="1146" parent="312" name="FULL_SYNC_PERIOD">
+      <DasType>int(11)|0s</DasType>
+      <Position>4</Position>
+    </column>
+    <column id="1147" parent="312" name="LAST_SYNC">
+      <DasType>int(11)|0s</DasType>
+      <Position>5</Position>
+    </column>
+    <column id="1148" parent="312" name="PRIORITY">
+      <DasType>int(11)|0s</DasType>
+      <Position>6</Position>
+    </column>
+    <column id="1149" parent="312" name="PROVIDER_NAME">
+      <DasType>varchar(255)|0s</DasType>
+      <Position>7</Position>
+    </column>
+    <column id="1150" parent="312" name="REALM_ID">
+      <DasType>varchar(36)|0s</DasType>
+      <Position>8</Position>
+    </column>
+    <foreign-key id="1151" parent="312" name="FK_1FJ32F6PTOLW2QY60CD8N01E8">
+      <ColNames>REALM_ID</ColNames>
+      <RefColNames>ID</RefColNames>
+      <RefTableName>REALM</RefTableName>
+    </foreign-key>
+    <index id="1152" parent="312" name="PRIMARY">
+      <ColNames>ID</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <index id="1153" parent="312" name="IDX_USR_FED_PRV_REALM">
+      <ColNames>REALM_ID</ColNames>
+      <Type>btree</Type>
+    </index>
+    <key id="1154" parent="312" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
+    <column id="1155" parent="313" name="GROUP_ID">
+      <DasType>varchar(36)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="1156" parent="313" name="USER_ID">
+      <DasType>varchar(36)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>2</Position>
+    </column>
+    <foreign-key id="1157" parent="313" name="FK_USER_GROUP_USER">
+      <ColNames>USER_ID</ColNames>
+      <RefColNames>ID</RefColNames>
+      <RefTableName>USER_ENTITY</RefTableName>
+    </foreign-key>
+    <index id="1158" parent="313" name="PRIMARY">
+      <ColNames>GROUP_ID
+USER_ID</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <index id="1159" parent="313" name="IDX_USER_GROUP_MAPPING">
+      <ColNames>USER_ID</ColNames>
+      <Type>btree</Type>
+    </index>
+    <key id="1160" parent="313" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
+    <column id="1161" parent="314" name="USER_ID">
+      <DasType>varchar(36)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="1162" parent="314" name="REQUIRED_ACTION">
+      <DasType>varchar(255)|0s</DasType>
+      <DefaultExpression>&apos; &apos;</DefaultExpression>
+      <NotNull>1</NotNull>
+      <Position>2</Position>
+    </column>
+    <foreign-key id="1163" parent="314" name="FK_6QJ3W1JW9CVAFHE19BWSIUVMD">
+      <ColNames>USER_ID</ColNames>
+      <RefColNames>ID</RefColNames>
+      <RefTableName>USER_ENTITY</RefTableName>
+    </foreign-key>
+    <index id="1164" parent="314" name="PRIMARY">
+      <ColNames>REQUIRED_ACTION
+USER_ID</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <index id="1165" parent="314" name="IDX_USER_REQACTIONS">
+      <ColNames>USER_ID</ColNames>
+      <Type>btree</Type>
+    </index>
+    <key id="1166" parent="314" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
+    <column id="1167" parent="315" name="ROLE_ID">
+      <DasType>varchar(255)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="1168" parent="315" name="USER_ID">
+      <DasType>varchar(36)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>2</Position>
+    </column>
+    <foreign-key id="1169" parent="315" name="FK_C4FQV34P1MBYLLOXANG7B1Q3L">
+      <ColNames>USER_ID</ColNames>
+      <RefColNames>ID</RefColNames>
+      <RefTableName>USER_ENTITY</RefTableName>
+    </foreign-key>
+    <index id="1170" parent="315" name="PRIMARY">
+      <ColNames>ROLE_ID
+USER_ID</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <index id="1171" parent="315" name="IDX_USER_ROLE_MAPPING">
+      <ColNames>USER_ID</ColNames>
+      <Type>btree</Type>
+    </index>
+    <key id="1172" parent="315" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
+    <column id="1173" parent="316" name="ID">
+      <DasType>varchar(36)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="1174" parent="316" name="AUTH_METHOD">
+      <DasType>varchar(255)|0s</DasType>
+      <Position>2</Position>
+    </column>
+    <column id="1175" parent="316" name="IP_ADDRESS">
+      <DasType>varchar(255)|0s</DasType>
+      <Position>3</Position>
+    </column>
+    <column id="1176" parent="316" name="LAST_SESSION_REFRESH">
+      <DasType>int(11)|0s</DasType>
+      <Position>4</Position>
+    </column>
+    <column id="1177" parent="316" name="LOGIN_USERNAME">
+      <DasType>varchar(255)|0s</DasType>
+      <Position>5</Position>
+    </column>
+    <column id="1178" parent="316" name="REALM_ID">
+      <DasType>varchar(255)|0s</DasType>
+      <Position>6</Position>
+    </column>
+    <column id="1179" parent="316" name="REMEMBER_ME">
+      <DasType>bit(1)|0s</DasType>
+      <DefaultExpression>b&apos;0&apos;</DefaultExpression>
+      <NotNull>1</NotNull>
+      <Position>7</Position>
+    </column>
+    <column id="1180" parent="316" name="STARTED">
+      <DasType>int(11)|0s</DasType>
+      <Position>8</Position>
+    </column>
+    <column id="1181" parent="316" name="USER_ID">
+      <DasType>varchar(255)|0s</DasType>
+      <Position>9</Position>
+    </column>
+    <column id="1182" parent="316" name="USER_SESSION_STATE">
+      <DasType>int(11)|0s</DasType>
+      <Position>10</Position>
+    </column>
+    <column id="1183" parent="316" name="BROKER_SESSION_ID">
+      <DasType>varchar(255)|0s</DasType>
+      <Position>11</Position>
+    </column>
+    <column id="1184" parent="316" name="BROKER_USER_ID">
+      <DasType>varchar(255)|0s</DasType>
+      <Position>12</Position>
+    </column>
+    <index id="1185" parent="316" name="PRIMARY">
+      <ColNames>ID</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <key id="1186" parent="316" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
+    <column id="1187" parent="317" name="USER_SESSION">
+      <DasType>varchar(36)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="1188" parent="317" name="NAME">
+      <DasType>varchar(255)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>2</Position>
+    </column>
+    <column id="1189" parent="317" name="VALUE">
+      <DasType>varchar(2048)|0s</DasType>
+      <Position>3</Position>
+    </column>
+    <foreign-key id="1190" parent="317" name="FK5EDFB00FF51D3472">
+      <ColNames>USER_SESSION</ColNames>
+      <RefColNames>ID</RefColNames>
+      <RefTableName>USER_SESSION</RefTableName>
+    </foreign-key>
+    <index id="1191" parent="317" name="PRIMARY">
+      <ColNames>USER_SESSION
+NAME</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <key id="1192" parent="317" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
+    <column id="1193" parent="318" name="CLIENT_ID">
+      <DasType>varchar(36)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="1194" parent="318" name="VALUE">
+      <DasType>varchar(255)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>2</Position>
+    </column>
+    <foreign-key id="1195" parent="318" name="FK_LOJPHO213XCX4WNKOG82SSRFY">
+      <ColNames>CLIENT_ID</ColNames>
+      <RefColNames>ID</RefColNames>
+      <RefTableName>CLIENT</RefTableName>
+    </foreign-key>
+    <index id="1196" parent="318" name="PRIMARY">
+      <ColNames>CLIENT_ID
+VALUE</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <index id="1197" parent="318" name="IDX_WEB_ORIG_CLIENT">
+      <ColNames>CLIENT_ID</ColNames>
+      <Type>btree</Type>
+    </index>
+    <key id="1198" parent="318" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
+  </database-model>
+</dataSource>
