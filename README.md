@@ -17,7 +17,6 @@ A web application that allows customers to order diet catering meals with integr
 
 - 🔍 Browse available diet plans  
 - 📝 Place and manage catering orders  
-- 🔐 User registration and login  
-- 🛠️ Admin panel (manage plans and orders)  
+- 🔐 User registration and login   
 - 💳 Online payments via **PayPal**  
-- 📜 Order history & payment status tracking
+- 📜 Order history 
